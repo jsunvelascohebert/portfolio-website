@@ -25,6 +25,9 @@
   p {
     @apply font-nunito font-normal text-sm text-black;
   }
+  .menu-item {
+    @apply font-nunito font-normal text-base text-black hover:font-bold hover:text-darkPurple hover:cursor-pointer hover:underline;
+  }
 }
 
 @media screen(md) {
