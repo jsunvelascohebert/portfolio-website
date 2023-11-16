@@ -1,15 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { FaEnvelope } from "react-icons/fa6";
-import { FaPhoneSquareAlt } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithubSquare } from "react-icons/fa";
 
-
-
 export default function Footer() {
   return (<>
-    <div className="w-full bg-purple border-2 border-darkPurple flex flex-row justify-between items-center p-5">
+    <div className="w-full bg-purple border-2 border-darkPurple flex flex-row justify-between items-center p-10">
       {/* name */}
       <Link to="/">Jsun Velasco-Hebert</Link>
 
