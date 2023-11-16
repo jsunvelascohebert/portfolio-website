@@ -24,7 +24,6 @@ export default function HeaderNav() {
           <FaGithubSquare className='text-xl' />
         </Link>
       </div>
-
     </div>
 
     {/* mobile headernav */}
