@@ -6,7 +6,8 @@ import { FaGithubSquare } from "react-icons/fa";
 
 export default function Footer() {
   return (<>
-    <div className="w-full bg-purple border-2 border-darkPurple flex flex-row justify-between items-center p-10">
+    {/* desktop footer */}
+    <div className="w-full bg-purple border-2 border-t-4 border-darkPurple hidden md:flex flex-row justify-between items-center p-10">
       {/* name */}
       <Link to="/" className='text-darkPurple font-bold hover:font-extrabold hover:underline'>jsun velasco-hébert</Link>
 
@@ -35,7 +36,40 @@ export default function Footer() {
           <Link to="" target="_blank" className='menu-item'>linkedin.com/in/jsunvelascohebert/</Link>
         </div>
       </div>
+    </div>
 
+    {/* mobile footer */}
+    <div className="w-full flex md:hidden flex-col bg-purple border-2 border-t-4 border-darkPurple justify-center items center p-5 py-10 gap-14">
+      {/* name */}
+      <Link to="/" className='text-darkPurple font-bold hover:font-extrabold hover:underline text-center'>
+        jsun velasco-hébert
+      </Link>
+
+      {/* links */}
+      <div className="flex flex-col justify-center items-center gap-2">
+        <Link to="/about" className='menu-item'>about</Link>
+        <Link to="/cv" className='menu-item'>cv</Link>
+        <Link to="/projects" className='menu-item'>projects</Link>
+      </div>
+
+      {/* contact info */}
+      <div className="flex flex-col justify-center items-center gap-3">
+        {/* email */}
+        <div className="flex flex-row gap-2 justify-center items-center">
+          <FaEnvelope className='text-darkPurple'/>
+          <Link to="mailto:jsun.velasco.hebert@gmail.com" className='menu-item'>jsun.velasco.hebert@gmail.com</Link>
+        </div>
+        {/* github */}
+        <div className="flex flex-row gap-2 justify-center items-center">
+          <FaGithubSquare className='text-darkPurple'/>
+          <Link to="https://github.com/jsunvelascohebert" target="_blank" className='menu-item'>github.com/jsunvelascohebert</Link>
+        </div>
+        {/* linkedin */}
+        <div className="flex flex-row gap-2 justify-center items-center">
+          <FaLinkedin className='text-darkPurple'/>
+          <Link to="" target="_blank" className='menu-item'>linkedin.com/in/jsunvelascohebert/</Link>
+        </div>
+      </div>
     </div>
   </>);
 }
