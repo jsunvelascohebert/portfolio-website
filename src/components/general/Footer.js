@@ -7,7 +7,7 @@ import { FaGithubSquare } from "react-icons/fa";
 export default function Footer() {
   return (<>
     {/* desktop footer */}
-    <div className="w-full bg-purple border-2 border-t-4 border-darkPurple hidden md:flex flex-row justify-between items-center p-10">
+    <div className="w-full bg-purple border-4 border-darkPurple hidden md:flex flex-row justify-between items-center p-10">
       {/* name */}
       <Link to="/" className='text-darkPurple font-bold hover:font-extrabold hover:underline'>jsun velasco-hébert</Link>
 
@@ -39,7 +39,7 @@ export default function Footer() {
     </div>
 
     {/* mobile footer */}
-    <div className="w-full flex md:hidden flex-col bg-purple border-2 border-t-4 border-darkPurple justify-center items center p-5 py-10 gap-14">
+    <div className="w-full flex md:hidden flex-col bg-purple border-4 border-darkPurple justify-center items center p-5 py-10 gap-14">
       {/* name */}
       <Link to="/" className='text-darkPurple font-bold hover:font-extrabold hover:underline text-center'>
         jsun velasco-hébert
