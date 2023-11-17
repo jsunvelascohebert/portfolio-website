@@ -14,7 +14,7 @@ export default function Home() {
         <img src={require("./../assets/jvh_headshot.png")} alt="jsun headshot" className='w-[50vw] md:w-[25vw] object-cover rounded-full border-4 border-darkPurple'/>
         {/* name */}
         <div className="flex flex-col justify-start items-center gap-3">
-          <h1 className='text-2xl md:text-6xl'>jsun velasco-hébert</h1>
+          <h1 className='text-2xl sm:text-6xl'>jsun velasco-hébert</h1>
             <div className="w-full flex flex-row justify-center items-center gap-2 sm:gap-5">
               <p className="text-light italic text-darkPurple">designer</p>
               <p className="text-light text-darkPurple">|</p>
