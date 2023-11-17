@@ -16,7 +16,7 @@ export default function ProjectGallery() {
         <p className="project-card-date">Fall 2023</p>
         {/* description */}
         <p>In order to bridge the gap in knowledge between medical information and day-to-day awareness, Medipin was created as a proof-of-concept, pin-and-note web application. With Medipin, users can create an account, search and save medical articles from an external API, organize articles based on customized topics, and add personalized notes to each article. This project was solo-coded by me; moreover, enhancements of the site will continue to come out when time permits.</p>
-      </div>
+        </div>
 
       {/* storyframing card */}
       <div className="project-card" tabIndex={0}>
@@ -77,6 +77,6 @@ export default function ProjectGallery() {
         {/* description */}
         <p>As commentary for the amount of waste produced during the design process during a core industrial design course, (we)aste consists of a trash can, skirt, and bag made of scavenged unwanted materials. It exists to raise awareness of unnecessary waste production oftentimes ignored throughout design, especially during the prototype phase.</p>
       </div>
-      </div>
+    </div>
   </>);
 }

@@ -5,6 +5,8 @@ import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-d
 import Home from './components/pages/Home';
 import About from './components/pages/About';
 import Footer from './components/general/Footer';
+import ProjectPage from './projects/ProjectPage';
+import CV from './components/pages/CV';
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="/cv" element={<CV />} />
+          <Route path="/projects" element={<ProjectPage />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
         <Footer />

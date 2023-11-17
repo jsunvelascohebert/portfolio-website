@@ -8,19 +8,19 @@
 
 @layer base {
   h1 {
-    @apply font-outfit font-extrabold text-5xl text-center;
+    @apply font-outfit font-extrabold text-5xl text-center text-darkPurple;
   }
   h2 {
-    @apply font-outfit font-bold text-4xl underline decoration-solid text-center;
+    @apply font-outfit font-bold text-4xl underline decoration-solid text-center text-darkPurple;
   }
   h3 {
-    @apply font-outfit font-semibold text-2xl tracking-wide text-center;
+    @apply font-outfit font-semibold text-2xl tracking-wide text-center text-darkPurple;
   }
   h4 {
-    @apply font-nunito font-semibold text-xl underline decoration-solid text-center;
+    @apply font-nunito font-semibold text-xl underline decoration-solid text-center text-darkPurple;
   }
   h5 {
-    @apply font-nunito font-semibold text-lg tracking-wide text-center;
+    @apply font-nunito font-semibold text-lg tracking-wide text-center text-darkPurple;
   }
   p {
     @apply font-nunito font-normal text-sm text-black;
