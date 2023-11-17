@@ -10,23 +10,20 @@ import CV from './components/pages/CV';
 import ScrollToTop from './components/general/ScrollToTop';
 
 function App() {
-  return (
-    <>
-      <Router>
-        <ScrollToTop />
-        <HeaderNav />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/cv" element={<CV />} />
-          <Route path="/projects" element={<ProjectPage />} />
-          <Route path="*" element={<Navigate to="/" />} />
-        </Routes>
-        <Footer />
-      </Router>
-    </>
-
-  );
+  return (<>
+    <Router>
+      <ScrollToTop />
+      <HeaderNav />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/cv" element={<CV />} />
+        <Route path="/projects" element={<ProjectPage />} />
+        <Route path="*" element={<Navigate to="/" />} />
+      </Routes>
+      <Footer />
+    </Router>
+  </>);
 }
 
 export default App;
