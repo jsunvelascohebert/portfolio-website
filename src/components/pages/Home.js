@@ -23,6 +23,18 @@ export default function Home() {
         {/* project gallery */}
         <div className="w-full flex flex-wrap justify-center items-stretch border-2 border-darkPurple">
 
+          {/* medipin card */}
+          <div className="project-card">
+            {/* image */}
+            <img src={require("../../projects/story-framing/stick.png")} alt="" className='project-card-img'/>
+            {/* title */}
+            <h4 className='text-left'>Medipin</h4>
+            {/* date */}
+            <p className="project-card-date">Sept 2023</p>
+            {/* description */}
+            <p>In order to bridge the gap in knowledge between medical information and day-to-day awareness, Medipin was created as a proof-of-concept, pin-and-note web application. With Medipin, users can create an account, search and save medical articles from an external API, organize articles based on customized topics, and add personalized notes to each article. This project was solo-coded by me; moreover, enhancements of the site will continue to come out when time permits.</p>
+          </div>
+
           {/* storyframing card */}
           <div className="project-card">
             {/* image */}
@@ -57,6 +69,30 @@ export default function Home() {
             <p className="project-card-date">July 2021</p>
             {/* description */}
             <p>Funded through the Maharam Fellowship Grant awarded by RISD, my teammate (Juliana) and I partnered with Groundwork Rhode Island's Green Team Youth to introduce and follow-through with youth-led projects aimed at identifying and solving small-scale issues around Providence and Pawtucket. In the end, the youth advertised their designs to the local community at two separate events.</p>
+          </div>
+
+          {/* growing system's tree card */}
+          <div className="project-card">
+            {/* image */}
+            <img src={require("../../projects/story-framing/stick.png")} alt="" className='project-card-img'/>
+            {/* title */}
+            <h4 className='text-left'>Growing a Systems Tree</h4>
+            {/* date */}
+            <p className="project-card-date">...</p>
+            {/* description */}
+            <p>...</p>
+          </div>
+
+          {/* weaste card */}
+          <div className="project-card">
+            {/* image */}
+            <img src={require("../../projects/story-framing/stick.png")} alt="" className='project-card-img'/>
+            {/* title */}
+            <h4 className='text-left'>(we)aste</h4>
+            {/* date */}
+            <p className="project-card-date">...</p>
+            {/* description */}
+            <p>...</p>
           </div>
 
 
