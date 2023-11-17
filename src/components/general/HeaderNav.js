@@ -2,11 +2,13 @@ import React from 'react';
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithubSquare } from "react-icons/fa";
 import { Link } from 'react-router-dom';
+import { IoMenu } from "react-icons/io5";
+
 
 export default function HeaderNav() {
   return (<>
     {/* desktop headernav */}
-    <div className="w-full sticky top-0 bg-purple flex flex-row justify-between items-center p-4 border-2 border-b-4 border-darkPurple z-50">
+    <div className="hidden w-full sticky top-0 bg-purple md:flex flex-row justify-between items-center p-4 border-2 border-b-4 border-darkPurple z-50">
       {/* logo */}
       <Link to="/" className='font-bold hover:font-extrabold hover:underline text-darkPurple'>jsun velasco-hébert</Link>
       {/* menu items */}
@@ -24,7 +26,12 @@ export default function HeaderNav() {
           <FaGithubSquare className='text-xl text-darkPurple' />
         </Link>
       </div>
-      </div>
+    </div>
+    
     {/* mobile headernav */}
+    <div className="sticky top-0 w-full flex flex-row md:hidden justify-between items-center bg-purple p-3 border-2 border-b-4 border-darkPurple z-50">
+      <Link to="/" className='text-sm font-bold hover:font-extrabold hover:underline text-darkPurple'>jsun velasco-hébert</Link>
+      <IoMenu className='text-darkPurple text-2xl'/>
+    </div>
   </>);
 }
