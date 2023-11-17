@@ -7,11 +7,13 @@ import About from './components/pages/About';
 import Footer from './components/general/Footer';
 import ProjectPage from './projects/ProjectPage';
 import CV from './components/pages/CV';
+import ScrollToTop from './components/general/ScrollToTop';
 
 function App() {
   return (
     <>
       <Router>
+        <ScrollToTop />
         <HeaderNav />
         <Routes>
           <Route path="/" element={<Home />} />
