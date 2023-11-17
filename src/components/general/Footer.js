@@ -8,7 +8,7 @@ export default function Footer() {
   return (<>
     <div className="w-full bg-purple border-2 border-darkPurple flex flex-row justify-between items-center p-10">
       {/* name */}
-      <Link to="/">Jsun Velasco-Hebert</Link>
+      <Link to="/" className='font-bold hover:font-extrabold hover:underline'>jsun velasco-hébert</Link>
 
       {/* portfolio links */}
       <div className="flex flex-col justify-center items-center gap-3">
