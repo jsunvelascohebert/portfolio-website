@@ -33,7 +33,7 @@ export default function Footer() {
         {/* linkedin */}
         <div className="flex flex-row gap-2 justify-start items-center">
           <FaLinkedin className='text-darkPurple'/>
-          <Link to="" target="_blank" className='menu-item'>linkedin.com/in/jsunvelascohebert/</Link>
+          <Link to="https://www.linkedin.com/in/jsunvelascohebert/" target="_blank" className='menu-item'>linkedin.com/in/jsunvelascohebert</Link>
         </div>
       </div>
     </div>
@@ -67,7 +67,7 @@ export default function Footer() {
         {/* linkedin */}
         <div className="flex flex-row gap-2 justify-center items-center">
           <FaLinkedin className='text-darkPurple'/>
-          <Link to="" target="_blank" className='menu-item'>linkedin.com/in/jsunvelascohebert/</Link>
+          <Link to="https://www.linkedin.com/in/jsunvelascohebert/" target="_blank" className='menu-item'>linkedin.com/in/jsunvelascohebert</Link>
         </div>
       </div>
     </div>
