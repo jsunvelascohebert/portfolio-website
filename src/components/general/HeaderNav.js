@@ -6,9 +6,9 @@ import { Link } from 'react-router-dom';
 export default function HeaderNav() {
   return (<>
     {/* desktop headernav */}
-    <div className="w-full bg-purple flex flex-row justify-between items-center p-4 border-2 border-darkPurple">
+    <div className="w-full sticky top-0 bg-lightPurple flex flex-row justify-between items-center p-4 border-2 border-darkPurple z-50">
       {/* logo */}
-      <Link to="/" className='font-bold hover:font-extrabold hover:underline'>jsun velasco-hebert</Link>
+      <Link to="/" className='font-bold hover:font-extrabold hover:underline'>jsun velasco-hébert</Link>
       {/* menu items */}
       <div className="flex flex-row gap-10 justify-center items-center">
         <Link to="/about" className='menu-item'>about</Link>
