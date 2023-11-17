@@ -21,12 +21,9 @@ export default function Home() {
               <p className="text-light italic text-darkPurple">developer</p>
               <p className="text-light text-darkPurple">|</p>
               <p className="text-light italic text-darkPurple">educator</p>
-
-
             </div>  
-     
           </div>
-          </Fade>
+        </Fade>
       </div>
 
       {/* quick link to projects */}
