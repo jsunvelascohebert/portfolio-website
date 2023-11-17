@@ -28,6 +28,15 @@
   .menu-item {
     @apply font-nunito font-normal text-base text-black hover:font-bold hover:text-darkPurple hover:cursor-pointer hover:underline;
   }
+  .project-card {
+    @apply flex flex-col justify-start items-start border-2 border-darkPurple bg-lightPurple h-full w-full sm:basis-1/2 md:basis-1/3 p-5 gap-2 hover:cursor-pointer hover:scale-105 hover:ring-4 hover:ring-purple active:scale-100 active:ring-inset;
+  }
+  .project-card-img {
+    @apply object-cover max-h-[35vh] w-full border-2 border-darkPurple;
+  }
+  .project-card-date {
+    @apply text-sm font-light;
+  }
 }
 
 @media screen(md) {
