@@ -8,7 +8,7 @@ export default function HeaderNav() {
     {/* desktop headernav */}
     <div className="w-full sticky top-0 bg-purple flex flex-row justify-between items-center p-4 border-2 border-b-4 border-darkPurple z-50">
       {/* logo */}
-      <Link to="/" className='font-bold hover:font-extrabold hover:underline'>jsun velasco-hébert</Link>
+      <Link to="/" className='font-bold hover:font-extrabold hover:underline text-darkPurple'>jsun velasco-hébert</Link>
       {/* menu items */}
       <div className="flex flex-row gap-10 justify-center items-center">
         <Link to="/about" className='menu-item'>about</Link>
@@ -18,10 +18,10 @@ export default function HeaderNav() {
       {/* link icons */}
       <div className="flex flex-row gap-5 justify-center items-center">
         <Link to="https://www.linkedin.com/in/jsunvelascohebert/" target='_blank'>
-          <FaLinkedin className='text-xl' />
+          <FaLinkedin className='text-xl text-darkPurple' />
         </Link>
         <Link to="https://github.com/jsunvelascohebert" target="_blank">
-          <FaGithubSquare className='text-xl' />
+          <FaGithubSquare className='text-xl text-darkPurple' />
         </Link>
       </div>
       </div>

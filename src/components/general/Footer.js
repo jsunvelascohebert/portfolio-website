@@ -8,7 +8,7 @@ export default function Footer() {
   return (<>
     <div className="w-full bg-purple border-2 border-darkPurple flex flex-row justify-between items-center p-10">
       {/* name */}
-      <Link to="/" className='font-bold hover:font-extrabold hover:underline'>jsun velasco-hébert</Link>
+      <Link to="/" className='text-darkPurple font-bold hover:font-extrabold hover:underline'>jsun velasco-hébert</Link>
 
       {/* portfolio links */}
       <div className="flex flex-col justify-center items-center gap-3">
@@ -21,18 +21,18 @@ export default function Footer() {
       <div className="flex flex-col justify-start items-start gap-3">
         {/* email */}
         <div className="flex flex-row gap-2 justify-start items-center">
-          <FaEnvelope />
-          <Link to="mailto:jsun.velasco.hebert@gmail.com">jsun.velasco.hebert@gmail.com</Link>
+          <FaEnvelope className='text-darkPurple'/>
+          <Link to="mailto:jsun.velasco.hebert@gmail.com" className='menu-item'>jsun.velasco.hebert@gmail.com</Link>
         </div>
         {/* github */}
         <div className="flex flex-row gap-2 justify-start items-center">
-          <FaGithubSquare />
-          <Link to="https://github.com/jsunvelascohebert" target="_blank">github.com/jsunvelascohebert</Link>
+          <FaGithubSquare className='text-darkPurple'/>
+          <Link to="https://github.com/jsunvelascohebert" target="_blank" className='menu-item'>github.com/jsunvelascohebert</Link>
         </div>
         {/* linkedin */}
         <div className="flex flex-row gap-2 justify-start items-center">
-          <FaLinkedin />
-          <Link to="" target="_blank">linkedin.com/in/jsunvelascohebert/</Link>
+          <FaLinkedin className='text-darkPurple'/>
+          <Link to="" target="_blank" className='menu-item'>linkedin.com/in/jsunvelascohebert/</Link>
         </div>
       </div>
 
