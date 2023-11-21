@@ -8,7 +8,7 @@ export default function ProjectGallery() {
     <div className="w-full flex flex-wrap justify-center items-stretch border-2 border-darkPurple">
 
       {/* medipin card */}
-      <Link className='project-card'>
+      <Link className='project-card' to='/projects/medipin'>
         <Fade>
           {/* image */}
           <img src={require("./thumbnails/medipin-card-thumbnail.png")} alt="" className='project-card-img'/>
