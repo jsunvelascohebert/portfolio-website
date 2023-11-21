@@ -9,21 +9,21 @@ import { Link } from 'react-router-dom';
 export default function MedipinPage() {
   return (<>
     {/* general container */}
-    <div className="w-full flex flex-col gap-10 justify-center items-center bg-gradient-to-b from-purple to-white">
+    <div className="w-full flex flex-col gap-10 justify-center items-center">
 
       {/* hero */}
-      <div className="w-full flex flex-col justify-center items-center py-12 gap-2">
+      <div className="w-full flex flex-col justify-center items-center py-12 gap-2 bg-gradient-to-b from-purple to-white">
         {/* hero header */}
         <Fade><h1 className='p-12'>medipin</h1></Fade>
         {/* quick links */}
         <Fade><div className="flex flex-row gap-10 justify-center items-center px-10 py-5">
           {/* site link */}
-          <Link className="flex flex-col justify-center items-center gap-2 group" to='https://medipin-client-29ba1901c9d4.herokuapp.com/' target='_blank'>
+          <Link className="flex flex-col justify-center items-center gap-2 group transition-all" to='https://medipin-client-29ba1901c9d4.herokuapp.com/' target='_blank'>
             <FaComputer className='text-2xl text-darkPurple group-hover:scale-110' />
             <p className='group-hover:scale-105 text-darkPurple group-hover:underline'>site link <FaExternalLinkAlt className='inline-block text-xs text-darkPurple group-hover:scale-110 -translate-y-0.5'/></p>
           </Link>
           {/* github repo link */}
-          <Link className="flex flex-col justify-center items-center gap-2 group" to='https://github.com/jsunvelascohebert/medipin' target="_blank">
+          <Link className="flex flex-col justify-center items-center gap-2 group transition-all" to='https://github.com/jsunvelascohebert/medipin' target="_blank">
             <FaGithub className='text-2xl text-darkPurple group-hover:scale-110' />
             <p className='group-hover:scale-105 text-darkPurple group-hover:underline'>github repo <FaExternalLinkAlt className='inline-block text-xs text-darkPurple group-hover:scale-110 -translate-y-0.5'/></p>
           </Link>
