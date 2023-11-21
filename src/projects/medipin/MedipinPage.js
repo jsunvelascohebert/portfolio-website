@@ -29,12 +29,12 @@ export default function MedipinPage() {
           </Link>
         </div></Fade>
         {/* hero image */}
-        <Fade><img src={require('./assets/medipin-note-page.png')} alt="medipin note page render with laptop and phone" /></Fade>
+        <Fade><img src={require('./assets/medipin-thumbnail.png')} alt="medipin note page render with laptop and phone" /></Fade>
         </div>
     </div>
 
     {/* basic information */}
-    <Fade><p className='max-w-[75vw] md:max-w-[50vw] text-center mx-auto'>medipin was created to bridge the gap between medical information and awareness. by allowing users to search, save, and supplement medical knowledge through a pin-and-note structure, medipin offers a platform for broadening our medical knowledge.</p></Fade>
+    <Fade><p className='max-w-[75vw] md:max-w-[50vw] text-center mx-auto'>Medipin was created to bridge the gap between medical information and awareness. by allowing users to search, save, and supplement medical knowledge through it's pin-and-note application structure, Medipin offers a platform for engaging and empowering our knowledge over our personal health.</p></Fade>
     
     {/* features */}
     <div className="w-full flex flex-col gap-12 justify-center items-center py-24">
@@ -43,22 +43,25 @@ export default function MedipinPage() {
         {/* search */}
         <Fade className='feature-card-fade-box'>
           <div className="feature-card">
+            <img src={require('./assets/medipin-search.png')} alt="medipin search page shown on tablets" />
             <h3>search</h3>
-            <p className='text-center max-w-[50vw] md:max-w-[25vw]'>Using the built-in search feature, peruse the U.S. Department of Health and Human Services database for health-related articles.</p>
+            <p className='feature-card-text'>Using the built-in search feature, peruse the U.S. Department of Health and Human Services database for health-related articles.</p>
           </div>
         </Fade>
         {/* pin */}
         <Fade className='feature-card-fade-box'>
           <div className="feature-card">
+            <img src={require('./assets/medipin-topic.png')} alt="medipin topic page shown phone and laptop" />
             <h3>pin</h3>
-            <p className="text-center max-w-[50vw] md:max-w-[25vw]">Create, edit, and delete customized topics to pin relevant or interesting articles. There are no limits to the number of topics you can create.</p>
+            <p className="feature-card-text">Create, edit, and delete customized topics to pin relevant or interesting articles. There are no limits to the number of topics you can create.</p>
           </div>
         </Fade>
         {/* note */}
         <Fade className='feature-card-fade-box'>
           <div className="feature-card">
+            <img src={require('./assets/medipin-notes.png')} alt="medipin notes page shown on phone and tablet" />
             <h3>note</h3>
-            <p className="text-center max-w-[50vw] md:max-w-[25vw]">Annotate pinned articles with notes that are stored securely behind your account information. Notes can be of any length.</p>
+            <p className="feature-card-text">Annotate pinned articles with notes that are stored securely behind your account information. Notes can be of any length.</p>
           </div>
         </Fade>
       </div>

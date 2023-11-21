@@ -41,10 +41,13 @@
     @apply text-sm;
   }
   .feature-card {
-    @apply flex flex-col justify-center items-center gap-4;
+    @apply flex flex-col justify-center items-center gap-5;
   }
   .feature-card-fade-box {
-    @apply w-full md:w-1/3 border-2 border-darkPurple bg-lightPurple p-3;
+    @apply w-full md:w-1/3 border-2 border-darkPurple bg-lightPurple p-6 hover:scale-105 hover:ring hover:ring-purple transition-all;
+  }
+  .feature-card-text {
+    @apply text-center max-w-[50vw] md:max-w-[25vw];
   }
 }
 
