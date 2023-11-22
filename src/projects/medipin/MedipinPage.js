@@ -3,6 +3,8 @@ import { Fade } from 'react-awesome-reveal';
 import { FaComputer } from "react-icons/fa6";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 import { Link } from 'react-router-dom';
+import { IoChatbubblesOutline, IoChevronUp } from "react-icons/io5";
+
 
 
 
@@ -66,10 +68,66 @@ export default function MedipinPage() {
         </Fade>
       </div>
     </div>
-    
-
 
     {/* process */}
+    <div className="w-full flex flex-col justify-center items-center gap-10">
+      <h2>process</h2>
+      {/* process elements */}
+      <div className="w-full flex flex-wrap justify-center items-center gap-2">
+        {/* empathize collapsed */}
+        <div className="basis-2/3 md:basis-1/3 flex flex-row justify-between items-center border-b-2 border-darkPurple">
+          <div className="flex flex-row justify-start items-center gap-2">
+            {/* icon */}
+            <IoChatbubblesOutline />
+            {/* text */}
+            <p>empathize</p>
+          </div>
+          {/* carrot */}
+          <IoChevronUp />
+        </div>
+
+        {/* define collapsed */}
+        <div className="w-full md:basis-1/3 flex flex-row justify-between items-center border-b-2 border-darkPurple">
+          <div className="flex flex-row justify-start items-center gap-2">
+            {/* icon */}
+            <IoChatbubblesOutline />
+            {/* text */}
+            <p>empathize</p>
+          </div>
+          {/* carrot */}
+          <IoChevronUp />
+        </div>
+
+        {/* ideate collapsed */}
+        <div className="w-full md:basis-1/3 flex flex-row justify-between items-center border-b-2 border-darkPurple">
+          <div className="flex flex-row justify-start items-center gap-2">
+            {/* icon */}
+            <IoChatbubblesOutline />
+            {/* text */}
+            <p>empathize</p>
+          </div>
+          {/* carrot */}
+          <IoChevronUp />
+        </div>
+
+        {/* prototype collapsed */}
+        <div className="w-full md:basis-1/3 flex flex-row justify-between items-center border-b-2 border-darkPurple">
+          <div className="flex flex-row justify-start items-center gap-2">
+            {/* icon */}
+            <IoChatbubblesOutline />
+            {/* text */}
+            <p>empathize</p>
+          </div>
+          {/* carrot */}
+          <IoChevronUp />
+        </div>
+
+        {/* develop collapsed */}
+
+        {/* deploy collapsed */}
+
+      </div>
+    </div>
 
     
     {/* documentation */}
