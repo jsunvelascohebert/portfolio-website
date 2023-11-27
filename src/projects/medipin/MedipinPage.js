@@ -1,14 +1,58 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Fade } from 'react-awesome-reveal';
 import { FaComputer } from "react-icons/fa6";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 import { Link } from 'react-router-dom';
-import { IoChatbubblesOutline, IoChevronUp } from "react-icons/io5";
-
-
-
+import { TbMessages } from "react-icons/tb";
+import { LuPencil } from "react-icons/lu";
+import { HiOutlinePuzzle } from "react-icons/hi";
+import { FiTool } from "react-icons/fi";
+import { HiOutlineDesktopComputer } from "react-icons/hi";
+import { LuSend } from "react-icons/lu";
 
 export default function MedipinPage() {
+
+  // process variables
+  const [isEmpathizeOpen, setIsEmpathizeOpen] = useState(true);
+  const [isDefineOpen, setIsDefineOpen] = useState(false);
+  const [isIdeateOpen, setIsIdeateOpen] = useState(false);
+  const [isPrototypeOpen, setIsPrototypeOpen] = useState(false);
+  const [isDevelopOpen, setIsDevelopOpen] = useState(false);
+  const [isDeployOpen, setIsDeployOpen] = useState(false);
+
+  // click events for process accordian
+  const openAccordian = (name) => {
+    setIsEmpathizeOpen(false);
+    setIsDefineOpen(false);
+    setIsIdeateOpen(false);
+    setIsPrototypeOpen(false);
+    setIsDevelopOpen(false);
+    setIsDeployOpen(false);
+
+    switch (name) {
+      case 'empathize':
+        setIsEmpathizeOpen(true);
+        break;
+      case 'define':
+        setIsDefineOpen(true);
+        break;
+      case 'ideate':
+        setIsIdeateOpen(true);
+        break;
+      case 'prototype':
+        setIsPrototypeOpen(true);
+        break;
+      case 'develop':
+        setIsDevelopOpen(true);
+        break;
+      case 'deploy':
+        setIsDeployOpen(true);
+        break;
+    }
+  }
+
+
+
   return (<>
     {/* general container */}
     <div className="w-full flex flex-col gap-10 justify-center items-center">
@@ -70,68 +114,71 @@ export default function MedipinPage() {
     </div>
 
     {/* process */}
-    <div className="w-full flex flex-col justify-center items-center gap-10">
+    <div className="w-full flex flex-col justify-center items-center gap-10 pb-24">
       <h2>process</h2>
-      {/* process elements */}
-      <div className="w-full flex flex-wrap justify-center items-center gap-2">
-        {/* empathize collapsed */}
-        <div className="basis-2/3 md:basis-1/3 flex flex-row justify-between items-center border-b-2 border-darkPurple">
-          <div className="flex flex-row justify-start items-center gap-2">
+      {/* DESKTOP -- process elements */}
+      <div className="flex flex-col gap-10 justify-center items-center w-full">
+
+        {/* tab bar */}
+        <div className="flex flex-row justify-center items-center 
+        border-2 border-darkPurple bg-lightPurple">
+          {/* empathize */}
+          <div className={isEmpathizeOpen ? 'accordian-tab-active' : 'accordian-tab'} onClick={() => openAccordian('empathize')}>
             {/* icon */}
-            <IoChatbubblesOutline />
+            <TbMessages className='text-4xl' />
             {/* text */}
-            <p>empathize</p>
+            <h5>empathize</h5>
           </div>
-          {/* carrot */}
-          <IoChevronUp />
+          {/* define */}
+          <div className={isDefineOpen ? 'accordian-tab-active' : 'accordian-tab'} onClick={() => openAccordian('define')}>
+            {/* icon */}
+            <LuPencil className='text-4xl' />
+            {/* text */}
+            <h5>define</h5>
+          </div>
+          {/* ideate */}
+          <div className={isIdeateOpen ? 'accordian-tab-active' : 'accordian-tab'} onClick={() => openAccordian('ideate')}>
+            {/* icon */}
+            <HiOutlinePuzzle className='text-4xl' />
+            {/* text */}
+            <h5>ideate</h5>
+          </div>
+          {/* prototype */}
+          <div className={isPrototypeOpen ? 'accordian-tab-active' : 'accordian-tab'} onClick={() => openAccordian('prototype')}>
+            {/* icon */}
+            <FiTool className='text-4xl' />
+            {/* text */}
+            <h5>prototype</h5>
+          </div>
+          {/* develop */}
+          <div className={isDevelopOpen ? 'accordian-tab-active' : 'accordian-tab'} onClick={() => openAccordian('develop')}>
+            {/* icon */}
+            <HiOutlineDesktopComputer className='text-4xl' />
+            {/* text */}
+            <h5>develop</h5>
+          </div>
+          {/* deploy */}
+          <div className={isDeployOpen ? 'accordian-tab-active' : 'accordian-tab'} onClick={() => openAccordian('deploy')}>
+            {/* icon */}
+            <LuSend className='text-4xl' />
+            {/* text */}
+            <h5>deploy</h5>
+          </div>
         </div>
 
-        {/* define collapsed */}
-        <div className="w-full md:basis-1/3 flex flex-row justify-between items-center border-b-2 border-darkPurple">
-          <div className="flex flex-row justify-start items-center gap-2">
-            {/* icon */}
-            <IoChatbubblesOutline />
-            {/* text */}
-            <p>empathize</p>
-          </div>
-          {/* carrot */}
-          <IoChevronUp />
-        </div>
-
-        {/* ideate collapsed */}
-        <div className="w-full md:basis-1/3 flex flex-row justify-between items-center border-b-2 border-darkPurple">
-          <div className="flex flex-row justify-start items-center gap-2">
-            {/* icon */}
-            <IoChatbubblesOutline />
-            {/* text */}
-            <p>empathize</p>
-          </div>
-          {/* carrot */}
-          <IoChevronUp />
-        </div>
-
-        {/* prototype collapsed */}
-        <div className="w-full md:basis-1/3 flex flex-row justify-between items-center border-b-2 border-darkPurple">
-          <div className="flex flex-row justify-start items-center gap-2">
-            {/* icon */}
-            <IoChatbubblesOutline />
-            {/* text */}
-            <p>empathize</p>
-          </div>
-          {/* carrot */}
-          <IoChevronUp />
-        </div>
-
-        {/* develop collapsed */}
-
-        {/* deploy collapsed */}
+        {/* tab content */}
 
       </div>
+
+
+      {/* MOBILE -- process elements */}
+      
+
+
+      
     </div>
 
-    
     {/* documentation */}
-
 
   </>);
 }
