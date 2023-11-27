@@ -9,6 +9,10 @@ import { HiOutlinePuzzle } from "react-icons/hi";
 import { FiTool } from "react-icons/fi";
 import { HiOutlineDesktopComputer } from "react-icons/hi";
 import { LuSend } from "react-icons/lu";
+import { BiExpandVertical } from "react-icons/bi";
+import { BiCollapseVertical } from "react-icons/bi";
+
+
 
 export default function MedipinPage() {
 
@@ -19,6 +23,17 @@ export default function MedipinPage() {
   const [isPrototypeOpen, setIsPrototypeOpen] = useState(false);
   const [isDevelopOpen, setIsDevelopOpen] = useState(false);
   const [isDeployOpen, setIsDeployOpen] = useState(false);
+
+  // process content content
+  const empathizeContent = 
+    <div className="w-full flex flex-col md:flex-row justify-start items-start gap-2">
+      <p>during the empathize phase, we spoke to current medical students starting with the question, “what are some issues in the medical field that you would want to see addressed?” the common pattern amongst their answers were centered on the discrepancy in health knowledge. upon further discussions with other involved parties, it was decided that an easily learnable app for bridging said gap would be central to the app’s development</p>
+    </div>;
+  const defineContent = '';
+  const ideateContent = '';
+  const prototypeContent = '';
+  const developContent = '';
+  const deployContent = '';
 
   // click events for process accordian
   const openAccordian = (name) => {
@@ -50,8 +65,6 @@ export default function MedipinPage() {
         break;
     }
   }
-
-
 
   return (<>
     {/* general container */}
@@ -115,12 +128,12 @@ export default function MedipinPage() {
 
     {/* process */}
     <div className="w-full flex flex-col justify-center items-center gap-10 pb-24">
-      <h2>process</h2>
-      {/* DESKTOP -- process elements */}
-      <div className="flex flex-col gap-10 justify-center items-center w-full">
+      <Fade><h2>process</h2></Fade>
 
+      {/* DESKTOP -- process elements */}
+      <div className="hidden md:flex flex-col gap-10 justify-center items-center w-full">
         {/* tab bar */}
-        <div className="flex flex-row justify-center items-center 
+        <Fade><div className="flex flex-row justify-center items-center 
         border-2 border-darkPurple bg-lightPurple">
           {/* empathize */}
           <div className={isEmpathizeOpen ? 'accordian-tab-active' : 'accordian-tab'} onClick={() => openAccordian('empathize')}>
@@ -164,15 +177,138 @@ export default function MedipinPage() {
             {/* text */}
             <h5>deploy</h5>
           </div>
-        </div>
+        </div></Fade>
 
         {/* tab content */}
 
       </div>
 
-
       {/* MOBILE -- process elements */}
-      
+      <div className="flex md:hidden flex-col justify-center items-center w-[90vw] bg-purple border-2 border-darkPurple">
+
+        {/* empathize tab */}
+        <div className={isEmpathizeOpen ? 'accordian-tab-active-mobile' : 'accordian-tab-mobile'} onClick={() => openAccordian('empathize')}>
+          <Fade>
+          {/* icon name container */}
+          <div className="flex flex-row justify-start items-center gap-2">
+            {/* icon */}
+            <TbMessages className='text-2xl' />
+            {/* text */}
+            <h5>empathize</h5>
+          </div>
+          {/* arrow icon */}
+          {isEmpathizeOpen
+            ? <BiCollapseVertical className='text-2xl' />
+              : <BiExpandVertical className='text-2xl' />}
+          </Fade>
+        </div>
+
+        {/* TODO : empathize content */}
+        <div className={isEmpathizeOpen
+          ? 'accordian-content-active-mobile'
+          : 'accordian-content-mobile'}>
+          <Fade>
+            
+            <p>during the empathize phase, we spoke to current medical students starting with the question, “what are some issues in the medical field that you would want to see addressed?” the common pattern amongst their answers were centered on the discrepancy in health knowledge. upon further discussions with other involved parties, it was decided that an easily learnable app for bridging said gap would be central to the app’s development</p>
+          </Fade>
+        </div>
+
+        {/* define tab */}
+        <div className={isDefineOpen ? 'accordian-tab-active-mobile' : 'accordian-tab-mobile'} onClick={() => openAccordian('define')}>
+          <Fade>
+          {/* icon name container */}
+          <div className="flex flex-row justify-start items-center gap-2">
+            {/* icon */}
+            <LuPencil className='text-2xl' />
+            {/* text */}
+            <h5>define</h5>
+          </div>
+          {/* arrow icon */}
+          {isDefineOpen
+            ? <BiCollapseVertical className='text-2xl' />
+              : <BiExpandVertical className='text-2xl' />}
+          </Fade>
+        </div>
+
+
+
+
+        {/* ideate tab */}
+        <div className={isIdeateOpen ? 'accordian-tab-active-mobile' : 'accordian-tab-mobile'} onClick={() => openAccordian('ideate')}>
+          <Fade>
+          {/* icon name container */}
+          <div className="flex flex-row justify-start items-center gap-2">
+            {/* icon */}
+            <HiOutlinePuzzle className='text-2xl' />
+            {/* text */}
+            <h5>ideate</h5>
+          </div>
+          {/* arrow icon */}
+          {isIdeateOpen
+            ? <BiCollapseVertical className='text-2xl' />
+              : <BiExpandVertical className='text-2xl' />}
+          </Fade>
+        </div>
+
+
+
+
+        {/* prototype tab */}
+        <div className={isPrototypeOpen ? 'accordian-tab-active-mobile' : 'accordian-tab-mobile'} onClick={() => openAccordian('prototype')}>
+          <Fade>
+          {/* icon name container */}
+          <div className="flex flex-row justify-start items-center gap-2">
+            {/* icon */}
+            <FiTool className='text-2xl' />
+            {/* text */}
+            <h5>prototype</h5>
+          </div>
+          {/* arrow icon */}
+          {isPrototypeOpen
+            ? <BiCollapseVertical className='text-2xl' />
+              : <BiExpandVertical className='text-2xl' />}
+          </Fade>
+        </div>
+
+
+
+        {/* develop tab */}
+        <div className={isDevelopOpen ? 'accordian-tab-active-mobile' : 'accordian-tab-mobile'} onClick={() => openAccordian('develop')}>
+          <Fade>
+          {/* icon name container */}
+          <div className="flex flex-row justify-start items-center gap-2">
+            {/* icon */}
+            <HiOutlineDesktopComputer className='text-2xl' />
+            {/* text */}
+            <h5>develop</h5>
+          </div>
+          {/* arrow icon */}
+          {isDevelopOpen
+            ? <BiCollapseVertical className='text-2xl' />
+              : <BiExpandVertical className='text-2xl' />}
+          </Fade>
+        </div>
+
+        
+
+        {/* deploy tab */}
+        <div className={isDeployOpen ? 'accordian-tab-active-mobile' : 'accordian-tab-mobile'} onClick={() => openAccordian('deploy')}>
+          <Fade>
+          {/* icon name container */}
+          <div className="flex flex-row justify-start items-center gap-2">
+            {/* icon */}
+            <LuSend className='text-2xl' />
+            {/* text */}
+            <h5>deploy</h5>
+          </div>
+          {/* arrow icon */}
+          {isDeployOpen
+            ? <BiCollapseVertical className='text-2xl' />
+              : <BiExpandVertical className='text-2xl' />}
+          </Fade>
+        </div>
+
+      </div>
 
 
       
