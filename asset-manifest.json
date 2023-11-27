@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/portfolio-website/static/css/main.94e9b394.css",
+    "main.js": "/portfolio-website/static/js/main.d7d2b96f.js",
+    "static/js/787.861fdc3f.chunk.js": "/portfolio-website/static/js/787.861fdc3f.chunk.js",
+    "static/media/maharam-card-thumbnail.png": "/portfolio-website/static/media/maharam-card-thumbnail.ad11250a64f99c0daf2a.png",
+    "static/media/storyframing-card-thumbnail.png": "/portfolio-website/static/media/storyframing-card-thumbnail.e7f65305633ad9b3d656.png",
+    "static/media/weaste-card-thumbnail.png": "/portfolio-website/static/media/weaste-card-thumbnail.941847d05bdd6c62c65e.png",
+    "static/media/jvh_headshot.png": "/portfolio-website/static/media/jvh_headshot.3c25193941f393c5d68b.png",
+    "static/media/medipin-topic.png": "/portfolio-website/static/media/medipin-topic.4a05284cf12003cf2e0d.png",
+    "static/media/medipin-search.png": "/portfolio-website/static/media/medipin-search.8b848096bb543681110e.png",
+    "static/media/medipin-notes.png": "/portfolio-website/static/media/medipin-notes.74178540b5feb2448697.png",
+    "static/media/medipin-thumbnail.png": "/portfolio-website/static/media/medipin-thumbnail.705c1162292076cd9915.png",
+    "static/media/medipin-empathize-thumbnail.png": "/portfolio-website/static/media/medipin-empathize-thumbnail.4a64f0fccb27e27fb229.png",
+    "static/media/teaching-card-thumbnail.png": "/portfolio-website/static/media/teaching-card-thumbnail.ee88c8f75ba9d019bf7a.png",
+    "static/media/medipin-card-thumbnail.png": "/portfolio-website/static/media/medipin-card-thumbnail.57df0ff4b54b8bced309.png",
+    "static/media/medipin-prototype-thumbnail.png": "/portfolio-website/static/media/medipin-prototype-thumbnail.7e9c66b38c85be0aa8ab.png",
+    "static/media/medipin-development-thumbnail.png": "/portfolio-website/static/media/medipin-development-thumbnail.97e03c6f45e424b21f72.png",
+    "static/media/tree-card-thumbnail.png": "/portfolio-website/static/media/tree-card-thumbnail.7db6d780c0ca6c12ebae.png",
+    "static/media/medipin-ideate-thumbnail.png": "/portfolio-website/static/media/medipin-ideate-thumbnail.4da54d293bf0d2a5db74.png",
+    "static/media/medipin-define-thumbnail.png": "/portfolio-website/static/media/medipin-define-thumbnail.b80a2db6c748229859cb.png",
+    "static/media/medipin-deploy-thumbnail.png": "/portfolio-website/static/media/medipin-deploy-thumbnail.c6f41c5753b1d2716786.png",
+    "index.html": "/portfolio-website/index.html",
+    "main.94e9b394.css.map": "/portfolio-website/static/css/main.94e9b394.css.map",
+    "main.d7d2b96f.js.map": "/portfolio-website/static/js/main.d7d2b96f.js.map",
+    "787.861fdc3f.chunk.js.map": "/portfolio-website/static/js/787.861fdc3f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.94e9b394.css",
+    "static/js/main.d7d2b96f.js"
+  ]
+}
