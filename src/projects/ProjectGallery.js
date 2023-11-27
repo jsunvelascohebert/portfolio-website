@@ -36,7 +36,7 @@ export default function ProjectGallery() {
       </Link>
 
       {/* teaching portfolio card */}
-      <Link className="project-card" to="https://drive.google.com/file/d/1BhGsqbYhOBvw3Iwirc3qyxozu0knQWad/view?usp=sharing" target="_blank">
+      <Link className="project-card" to="https://drive.google.com/file/d/1dmKtW_GW4LIgaNQ37eyLrvi3DdiUVqJC/view?usp=sharing" target="_blank">
         <Fade>
           {/* image */}
           <img src={require("./thumbnails/teaching-card-thumbnail.png")} alt="" className='project-card-img'/>
