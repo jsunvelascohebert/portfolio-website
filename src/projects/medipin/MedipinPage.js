@@ -27,32 +27,32 @@ export default function MedipinPage() {
   // process content content
   const empathizeContent = 
     <div className="process-content">
-      <Fade><img src={require('./assets/medipin-notes.png')} alt="" className='md:max-w-[40vw]'/>
+      <Fade><img src={require('./assets/medipin-empathize-thumbnail.png')} alt="two women chatting at a table" className='medipin-image-thumbnail'/>
       <p className='md:max-w-[40vw]'>during the empathize phase, we spoke to current medical students starting with the question, “what are some issues in the medical field that you would want to see addressed?” the common pattern amongst their answers were centered on the discrepancy in health knowledge. upon further discussions with other involved parties, it was decided that an easily learnable app for bridging said gap would be central to the app’s development</p></Fade>
     </div>;
   const defineContent = 
     <div className="process-content">
-      <Fade><img src={require('./assets/medipin-notes.png')} alt="" className='md:max-w-[40vw]'/>
+      <Fade><img src={require('./assets/medipin-define-thumbnail.png')} alt="general master planning figma board during collaborative effort" className='medipin-image-thumbnail'/>
       <p className='md:max-w-[40vw]'>during the define phase, work was done to articulate the problem statement and goal statements. Our hypothesis is that: If Zoe can easily access credible information on their partner’s condition, then they will be more educated and supportive of their partner’s needs and concerns. Also, We believe that an intuitive interface that makes medical information accessible for Zoe will ease their nerves concerning their knowledge of medical information with their limited background training.</p></Fade>
     </div>;
   const ideateContent = 
     <div className="process-content">
-      <Fade><img src={require('./assets/medipin-notes.png')} alt="" className='md:max-w-[40vw]'/>
+      <Fade><img src={require('./assets/medipin-ideate-thumbnail.png')} alt="focused screenshot of figma board showing plans, task flow, and structure of app" className='medipin-image-thumbnail'/>
       <p className='md:max-w-[40vw]'>for the ideate phase, we used a shared FigJam board to map out the remaining elements of our goal statement, hypothesis, personas, as well as the systemic structure of the app. For the second version, the planning began with the MySQL database tables, moved onto the backend structure, and ended with some interface prototypes. The structure was based primarily on a Three-Layer Architecture model: global level models, data layer repositories, domain level validation services, and a user interface level model/view/control structure.</p></Fade>
     </div>;
   const prototypeContent = 
     <div className="process-content">
-      <Fade><img src={require('./assets/medipin-notes.png')} alt="" className='md:max-w-[40vw]'/>
+      <Fade><img src={require('./assets/medipin-prototype-thumbnail.png')} alt="figma prototype board with hi-fidelity page mockups and links between interactive elements" className='medipin-image-thumbnail'/>
       <p className='md:max-w-[40vw]'>when prototyping, Figma was used to create both lo-fidelity and hi-fidelity mockups. with Figma, there was a focus on utilizing all of the available tools and features, including auto-layout, variants, and local variables. interactivity was an important element, so two interactive prototypes are made available for both the lo-fidelity and hi-fidelity mockups. lastly, responsive design was deeply considered, so both mobile and desktop versions were designed.</p></Fade>
     </div>;
   const developContent = 
     <div className="process-content">
-      <Fade><img src={require('./assets/medipin-notes.png')} alt="" className='md:max-w-[40vw]'/>
+      <Fade><img src={require('./assets/medipin-development-thumbnail.png')} alt="screenshow of medipin code, showing react front-end example code" className='medipin-image-thumbnail'/>
       <p className='md:max-w-[40vw]'>development materialized into three main phases: the MySQL database, the Java backend, and the React front-end. as hinted at, MySQL and Docker were used for creating the database. the Java Backend prioritized SpringBoot and included test-driven development with JUnit tests. Lastly, the front-end uses both React and Tailwind CSS. all elements were created from scratch using the utility framework.</p></Fade>
     </div>;
   const deployContent = 
     <div className="process-content">
-      <Fade><img src={require('./assets/medipin-notes.png')} alt="" className='md:max-w-[40vw]'/>
+      <Fade><img src={require('./assets/medipin-deploy-thumbnail.png')} alt="screenshot of heroku metrics page for medipin" className='medipin-image-thumbnail'/>
       <p className='md:max-w-[40vw]'>for deploying medipin, multiple routes were considered including AWS and Heroku. Heroku was ultimately decided due to the simplicity in its services. all elements of the app are hosted on Heroku; including the backend, database, and front-end separately. in the future, AWS will be considered when resources, time, and energy are less sparse.</p></Fade>
     </div>;
 
