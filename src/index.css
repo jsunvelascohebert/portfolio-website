@@ -65,10 +65,10 @@
     @apply flex flex-row w-full justify-between items-center p-2 border-2 border-darkPurple bg-purple text-darkPurple hover:cursor-pointer;
   }
   .accordian-content-mobile {
-    @apply w-full h-0 hidden flex-col md:flex-row justify-start items-start gap-2 p-4 bg-white border-2 border-darkPurple transition-all;
-  }
-  .accordian-content-active-mobile {
     @apply w-full flex flex-col md:flex-row justify-start items-start gap-2 p-4 bg-white border-2 border-darkPurple transition-all;
+  }
+  .process-content {
+    @apply w-full flex flex-col md:flex-row justify-center items-center gap-2;
   }
 }
 

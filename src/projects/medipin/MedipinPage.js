@@ -26,14 +26,35 @@ export default function MedipinPage() {
 
   // process content content
   const empathizeContent = 
-    <div className="w-full flex flex-col md:flex-row justify-start items-start gap-2">
-      <p>during the empathize phase, we spoke to current medical students starting with the question, “what are some issues in the medical field that you would want to see addressed?” the common pattern amongst their answers were centered on the discrepancy in health knowledge. upon further discussions with other involved parties, it was decided that an easily learnable app for bridging said gap would be central to the app’s development</p>
+    <div className="process-content">
+      <Fade><img src={require('./assets/medipin-notes.png')} alt="" className='md:max-w-[40vw]'/>
+      <p className='md:max-w-[40vw]'>during the empathize phase, we spoke to current medical students starting with the question, “what are some issues in the medical field that you would want to see addressed?” the common pattern amongst their answers were centered on the discrepancy in health knowledge. upon further discussions with other involved parties, it was decided that an easily learnable app for bridging said gap would be central to the app’s development</p></Fade>
     </div>;
-  const defineContent = '';
-  const ideateContent = '';
-  const prototypeContent = '';
-  const developContent = '';
-  const deployContent = '';
+  const defineContent = 
+    <div className="process-content">
+      <Fade><img src={require('./assets/medipin-notes.png')} alt="" className='md:max-w-[40vw]'/>
+      <p className='md:max-w-[40vw]'>during the define phase, work was done to articulate the problem statement and goal statements. Our hypothesis is that: If Zoe can easily access credible information on their partner’s condition, then they will be more educated and supportive of their partner’s needs and concerns. Also, We believe that an intuitive interface that makes medical information accessible for Zoe will ease their nerves concerning their knowledge of medical information with their limited background training.</p></Fade>
+    </div>;
+  const ideateContent = 
+    <div className="process-content">
+      <Fade><img src={require('./assets/medipin-notes.png')} alt="" className='md:max-w-[40vw]'/>
+      <p className='md:max-w-[40vw]'>for the ideate phase, we used a shared FigJam board to map out the remaining elements of our goal statement, hypothesis, personas, as well as the systemic structure of the app. For the second version, the planning began with the MySQL database tables, moved onto the backend structure, and ended with some interface prototypes. The structure was based primarily on a Three-Layer Architecture model: global level models, data layer repositories, domain level validation services, and a user interface level model/view/control structure.</p></Fade>
+    </div>;
+  const prototypeContent = 
+    <div className="process-content">
+      <Fade><img src={require('./assets/medipin-notes.png')} alt="" className='md:max-w-[40vw]'/>
+      <p className='md:max-w-[40vw]'>when prototyping, Figma was used to create both lo-fidelity and hi-fidelity mockups. with Figma, there was a focus on utilizing all of the available tools and features, including auto-layout, variants, and local variables. interactivity was an important element, so two interactive prototypes are made available for both the lo-fidelity and hi-fidelity mockups. lastly, responsive design was deeply considered, so both mobile and desktop versions were designed.</p></Fade>
+    </div>;
+  const developContent = 
+    <div className="process-content">
+      <Fade><img src={require('./assets/medipin-notes.png')} alt="" className='md:max-w-[40vw]'/>
+      <p className='md:max-w-[40vw]'>development materialized into three main phases: the MySQL database, the Java backend, and the React front-end. as hinted at, MySQL and Docker were used for creating the database. the Java Backend prioritized SpringBoot and included test-driven development with JUnit tests. Lastly, the front-end uses both React and Tailwind CSS. all elements were created from scratch using the utility framework.</p></Fade>
+    </div>;
+  const deployContent = 
+    <div className="process-content">
+      <Fade><img src={require('./assets/medipin-notes.png')} alt="" className='md:max-w-[40vw]'/>
+      <p className='md:max-w-[40vw]'>for deploying medipin, multiple routes were considered including AWS and Heroku. Heroku was ultimately decided due to the simplicity in its services. all elements of the app are hosted on Heroku; including the backend, database, and front-end separately. in the future, AWS will be considered when resources, time, and energy are less sparse.</p></Fade>
+    </div>;
 
   // click events for process accordian
   const openAccordian = (name) => {
@@ -69,7 +90,6 @@ export default function MedipinPage() {
   return (<>
     {/* general container */}
     <div className="w-full flex flex-col gap-10 justify-center items-center">
-
       {/* hero */}
       <div className="w-full flex flex-col justify-center items-center py-12 gap-2 bg-gradient-to-b from-purple to-white">
         {/* hero header */}
@@ -180,6 +200,15 @@ export default function MedipinPage() {
         </div></Fade>
 
         {/* tab content */}
+        <div>
+          {isEmpathizeOpen && empathizeContent}
+          {isDefineOpen && defineContent}
+          {isIdeateOpen && ideateContent}
+          {isPrototypeOpen && prototypeContent}
+          {isDevelopOpen && developContent}
+          {isDeployOpen && deployContent}
+        </div>
+        
 
       </div>
 
@@ -203,15 +232,11 @@ export default function MedipinPage() {
           </Fade>
         </div>
 
-        {/* TODO : empathize content */}
-        <div className={isEmpathizeOpen
-          ? 'accordian-content-active-mobile'
-          : 'accordian-content-mobile'}>
-          <Fade>
-            
-            <p>during the empathize phase, we spoke to current medical students starting with the question, “what are some issues in the medical field that you would want to see addressed?” the common pattern amongst their answers were centered on the discrepancy in health knowledge. upon further discussions with other involved parties, it was decided that an easily learnable app for bridging said gap would be central to the app’s development</p>
-          </Fade>
-        </div>
+        {/* empathize content */}
+        {isEmpathizeOpen &&
+          <div className='accordian-content-mobile'>
+            {empathizeContent}
+          </div>}
 
         {/* define tab */}
         <div className={isDefineOpen ? 'accordian-tab-active-mobile' : 'accordian-tab-mobile'} onClick={() => openAccordian('define')}>
@@ -230,8 +255,11 @@ export default function MedipinPage() {
           </Fade>
         </div>
 
-
-
+        {/* define content */}
+        {isDefineOpen &&
+          <div className='accordian-content-mobile'>
+            {defineContent}
+          </div>}
 
         {/* ideate tab */}
         <div className={isIdeateOpen ? 'accordian-tab-active-mobile' : 'accordian-tab-mobile'} onClick={() => openAccordian('ideate')}>
@@ -250,8 +278,11 @@ export default function MedipinPage() {
           </Fade>
         </div>
 
-
-
+        {/* ideate content */}
+        {isIdeateOpen &&
+          <div className='accordian-content-mobile'>
+            {ideateContent}
+          </div>}
 
         {/* prototype tab */}
         <div className={isPrototypeOpen ? 'accordian-tab-active-mobile' : 'accordian-tab-mobile'} onClick={() => openAccordian('prototype')}>
@@ -270,7 +301,11 @@ export default function MedipinPage() {
           </Fade>
         </div>
 
-
+        {/* prototype content */}
+        {isPrototypeOpen &&
+          <div className='accordian-content-mobile'>
+            {prototypeContent}
+          </div>}
 
         {/* develop tab */}
         <div className={isDevelopOpen ? 'accordian-tab-active-mobile' : 'accordian-tab-mobile'} onClick={() => openAccordian('develop')}>
@@ -289,7 +324,11 @@ export default function MedipinPage() {
           </Fade>
         </div>
 
-        
+        {/* develop content */}
+        {isDevelopOpen &&
+          <div className='accordian-content-mobile'>
+            {developContent}
+          </div>}     
 
         {/* deploy tab */}
         <div className={isDeployOpen ? 'accordian-tab-active-mobile' : 'accordian-tab-mobile'} onClick={() => openAccordian('deploy')}>
@@ -307,6 +346,12 @@ export default function MedipinPage() {
               : <BiExpandVertical className='text-2xl' />}
           </Fade>
         </div>
+
+        {/* deploy content */}
+        {isDeployOpen &&
+          <div className='accordian-content-mobile'>
+            {deployContent}
+          </div>}
 
       </div>
 
