@@ -73,6 +73,12 @@
   .medipin-image-thumbnail {
     @apply md:max-w-[40vw] border-2 md:border-4 border-darkPurple;
   }
+  .medipin-document-link {
+    @apply flex flex-row md:flex-col justify-center items-center gap-4  hover:ring-4 hover:ring-purple hover:scale-105 p-3 text-darkPurple text-center transition-all;
+  }
+  .medipin-document-icon {
+    @apply text-2xl md:text-4xl;
+  }
 }
 
 @media screen(md) {

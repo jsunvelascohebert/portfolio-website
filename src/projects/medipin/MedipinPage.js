@@ -11,8 +11,8 @@ import { HiOutlineDesktopComputer } from "react-icons/hi";
 import { LuSend } from "react-icons/lu";
 import { BiExpandVertical } from "react-icons/bi";
 import { BiCollapseVertical } from "react-icons/bi";
-
-
+import { FaFigma } from "react-icons/fa";
+import { FiGithub } from "react-icons/fi";
 
 export default function MedipinPage() {
 
@@ -200,7 +200,7 @@ export default function MedipinPage() {
         </div></Fade>
 
         {/* tab content */}
-        <div>
+        <div className='flex min-h-[50vh] justify-center items-center'>
           {isEmpathizeOpen && empathizeContent}
           {isDefineOpen && defineContent}
           {isIdeateOpen && ideateContent}
@@ -208,8 +208,6 @@ export default function MedipinPage() {
           {isDevelopOpen && developContent}
           {isDeployOpen && deployContent}
         </div>
-        
-
       </div>
 
       {/* MOBILE -- process elements */}
@@ -353,13 +351,56 @@ export default function MedipinPage() {
             {deployContent}
           </div>}
 
-      </div>
-
-
-      
+      </div>      
     </div>
 
     {/* documentation */}
+    <div className="w-full flex flex-col gap-10 justify-center items-center pb-24">
+      <Fade><h2>external links</h2></Fade>
+      {/* links container */}
+      <div className="flex flex-col md:flex-row justify-center items center gap-2 md:gap-4">
+        {/* medipin master board */}
+        <Link className="medipin-document-link" to="https://www.figma.com/file/FicHIv6HFlmjxYdvMNUvwa/healthtech-pinnovators-master-board?type=whiteboard&node-id=0%3A1&t=VRJOznvKj634G2Wt-1" target='_blank'>
+          {/* icon */}
+          <FaFigma className='medipin-document-icon'/>
+          {/* text */}
+          <p className='font-bold text-darkPurple'>master board</p>
+        </Link>
+    
+        {/* medipin lo-fidelity board */}
+        <Link className="medipin-document-link" to="https://www.figma.com/file/qek33m2FUNjSuRLDul9N8B/medipin-lo-fi-design?type=design&node-id=0%3A1&mode=design&t=MIpzEHBPKsflk0MA-1" target='_blank'>
+          {/* icon */}
+          <FaFigma className='medipin-document-icon'/>
+          {/* text */}
+          <p className='font-bold text-darkPurple'>lo-fi mockups</p>
+        </Link>
+
+        {/* medipin hi-fidelity board */}
+        <Link className="medipin-document-link" to="https://www.figma.com/file/nGfqfPwL9OfQsbABkXHLCv/medipin-hi-fidelity-prototypes?type=design&node-id=0%3A1&mode=design&t=0wUs8orceMeU2j0J-1" target='_blank'>
+          {/* icon */}
+          <FaFigma className='medipin-document-icon'/>
+          {/* text */}
+          <p className='font-bold text-darkPurple'>hi-fi mockups</p>
+        </Link>
+
+        {/* medipin backend github */}
+        <Link className="medipin-document-link" to="https://github.com/jsunvelascohebert/medipin-server" target='_blank'>
+          {/* icon */}
+          <FiGithub className='medipin-document-icon'/>
+          {/* text */}
+          <p className='font-bold text-darkPurple'>backend github</p>
+        </Link>
+
+        {/* medipin frontend github */}
+        <Link className="medipin-document-link" to="https://github.com/jsunvelascohebert/medipin-client" target='_blank'>
+          {/* icon */}
+          <FiGithub className='medipin-document-icon'/>
+          {/* text */}
+          <p className='font-bold text-darkPurple'>front end github</p>
+        </Link>
+
+      </div>
+    </div>
 
   </>);
 }
