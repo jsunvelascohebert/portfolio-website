@@ -52,7 +52,7 @@ export default function Footer() {
         {/* logo */}
         <img src={require('./../assets/hero-logo_1.png')} alt="logo" className='max-h-[12vh] group-hover:scale-105' />
         {/* name */}
-        <div className='text-darkPurple font-bold hover:font-extrabold hover:underline text-center'>
+        <div className='text-darkPurple font-bold group-hover:font-extrabold group-hover:underline text-center'>
           jsun velasco-hébert
         </div>
       </Link>
