@@ -97,7 +97,7 @@ export default function ProjectGallery() {
           {/* image */}
           <img src={require("./thumbnails/aaad-card-thumbnail.png")} alt="" className='project-card-img'/>
           {/* title */}
-          <h4 className='text-left'>an apple a day</h4>
+          <h4 className='text-left'>An Apple a Day</h4>
           {/* date */}
           <p className="project-card-date">Spring 2021</p>
           {/* description */}
@@ -125,11 +125,11 @@ export default function ProjectGallery() {
           {/* image */}
           <img src={require("./thumbnails/implant-card-thumbnail.png")} alt="" className='project-card-img'/>
           {/* title */}
-          <h4 className='text-left'>implant</h4>
+          <h4 className='text-left'>Implant</h4>
           {/* date */}
           <p className="project-card-date">Fall 2020</p>
           {/* description */}
-          <p>implant was designed as a social service for addressing climate change through food systems. Based on reports from the Drawdown 2020, food is one of the largest intervention points for curbing carbon emission. implant proposes a mobile food pantry which flexible and dynamically brings salvaged, locally-sourced prodouce to food apartheid areas.</p>
+          <p>Implant was designed as a social service for addressing climate change through food systems. Based on reports from the Drawdown 2020, food is one of the largest intervention points for curbing carbon emission. Implant proposes a mobile food pantry which flexible and dynamically brings salvaged, locally-sourced prodouce to food apartheid areas.</p>
         </Fade>
       </Link>
 
@@ -139,7 +139,7 @@ export default function ProjectGallery() {
           {/* image */}
           <img src={require("./thumbnails/covid-card-thumbnail.png")} alt="" className='project-card-img'/>
           {/* title */}
-          <h4 className='text-left'>care towards an environmentally-just, post-COVID future</h4>
+          <h4 className='text-left'>Care Towards an Environmentally-Just, Post-COVID Future</h4>
           {/* date */}
           <p className="project-card-date">Spring 2020</p>
           {/* description */}
@@ -153,11 +153,25 @@ export default function ProjectGallery() {
           {/* image */}
           <img src={require("./thumbnails/fanimalies-card-thumbnail.png")} alt="" className='project-card-img'/>
           {/* title */}
-          <h4 className='text-left'>fanimalies</h4>
+          <h4 className='text-left'>Fanimalies</h4>
           {/* date */}
           <p className="project-card-date">Summer 2018</p>
           {/* description */}
           <p>Fanimalies was completed during a black-and-white film photography class over the Summer of 2018. One outing during the class led us to the RISD Nature Lab where I spent hours requesting, re-arranging, and re-photographing groups of taxidermy animals. The name is a mashup of the words "family" and "animals" which alludes to its themes of showcasing dynamic relationships through these objects, previously subjects.</p>
+        </Fade>
+      </Link>
+
+      {/* glyphs card */}
+      <Link className="project-card" to="https://drive.google.com/file/d/1so1NR-0-ku8o-MthsMl9qMkIvlWzLKxY/view?usp=sharing" target='_blank'>
+        <Fade>
+          {/* image */}
+          <img src={require("./thumbnails/glyphs-card-thumbnail.png")} alt="" className='project-card-img'/>
+          {/* title */}
+          <h4 className='text-left'>Glyphs</h4>
+          {/* date */}
+          <p className="project-card-date">Spring 2017</p>
+          {/* description */}
+          <p>Glyphs is a watercolored series of images bounded in a book. inside are written poems with every letter replaced with a different glyph. the artworks attached were made via a starting scribble and then freely filled in.</p>
         </Fade>
       </Link>
 
