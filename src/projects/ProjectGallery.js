@@ -22,7 +22,7 @@ export default function ProjectGallery() {
       </Link>
       
       {/* storyframing card */}
-      <Link className="project-card project-card-disabled">
+      <Link className="project-card" to="https://drive.google.com/file/d/16veGCVLnfdNJlQdSiQESBPREoRg-8EDi/view?usp=sharing" target='_blank'>
         <Fade>
           {/* image */}
           <img src={require("./thumbnails/storyframing-card-thumbnail.png")} alt="" className='project-card-img'/>
@@ -50,7 +50,7 @@ export default function ProjectGallery() {
       </Link>
 
       {/* maharam card */}
-      <Link className="project-card project-card-disabled">
+      <Link className="project-card" to="https://drive.google.com/file/d/1bWv4Wb5hmUK-NJ0TPtBXAHc6Dk_0NyMs/view?usp=sharing" target='_blank'>
         <Fade>
           {/* image */}
           <img src={require("./thumbnails/maharam-card-thumbnail.png")} alt="" className='project-card-img'/>
@@ -78,7 +78,7 @@ export default function ProjectGallery() {
       </Link>
 
       {/* weaste card */}
-      <Link className="project-card project-card-disabled">
+      <Link className="project-card" to="https://drive.google.com/drive/folders/1vZXPwvSji5XJSaF7jkVSlXQA0gq-I7eG?usp=sharing" target='_blank'>
         <Fade>
           {/* image */}
           <img src={require("./thumbnails/weaste-card-thumbnail.png")} alt="" className='project-card-img'/>

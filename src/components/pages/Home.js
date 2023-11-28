@@ -10,8 +10,6 @@ export default function Home() {
       {/* hero banner */}
       <div className='w-full h-[90vh] flex flex-col md:flex-row justify-center md:justify-center items-center p-10 gap-10 md:gap-20 bg-gradient-to-b from-purple to-white'>
         <Fade>
-        {/* image */}
-        <img src={require("./../assets/jvh_headshot.png")} alt="jsun headshot" className='w-[50vw] md:w-[25vw] object-cover rounded-full border-4 border-darkPurple'/>
         {/* name */}
         <div className="flex flex-col justify-start items-center gap-3">
           <h1 className='text-2xl sm:text-6xl'>jsun velasco-hébert</h1>

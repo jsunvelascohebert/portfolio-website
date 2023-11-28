@@ -13,8 +13,8 @@ export default function HeaderNav() {
       <Link to="/" className='font-bold hover:font-extrabold hover:underline text-darkPurple'>jsun velasco-hébert</Link>
       {/* menu items */}
       <div className="flex flex-row gap-10 justify-center items-center">
-        <Link to="/about" className='menu-item'>about</Link>
-        <Link to="/cv" className='menu-item'>cv</Link>
+        <Link to="" className='menu-item-disabled'>about</Link>
+        <Link to="" className='menu-item-disabled'>cv</Link>
         <Link to="/projects" className='menu-item'>projects</Link>
       </div>
       {/* link icons */}

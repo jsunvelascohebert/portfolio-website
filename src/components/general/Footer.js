@@ -13,8 +13,8 @@ export default function Footer() {
 
       {/* portfolio links */}
       <div className="flex flex-col justify-center items-center gap-3">
-        <Link to="/about" className='menu-item'>about</Link>
-        <Link to="/cv" className='menu-item'>cv</Link>
+        <Link to="" className='menu-item-disabled'>about</Link>
+        <Link to="" className='menu-item-disabled'>cv</Link>
         <Link to="/projects" className='menu-item'>projects</Link>
       </div>
 
@@ -47,8 +47,8 @@ export default function Footer() {
 
       {/* links */}
       <div className="flex flex-col justify-center items-center gap-2">
-        <Link to="/about" className='menu-item'>about</Link>
-        <Link to="/cv" className='menu-item'>cv</Link>
+        <Link to="" className='menu-item-disabled'>about</Link>
+        <Link to="" className='menu-item-disabled'>cv</Link>
         <Link to="/projects" className='menu-item'>projects</Link>
       </div>
 
