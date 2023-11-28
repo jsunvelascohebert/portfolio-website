@@ -14,8 +14,16 @@ export default function ProjectGallery() {
           <img src={require("./thumbnails/medipin-card-thumbnail.png")} alt="" className='project-card-img'/>
           {/* title */}
           <h4 className='text-left'>Medipin</h4>
-          {/* date */}
-          <p className="project-card-date">Fall 2023</p>
+          {/* topics */}
+          <div className="project-card-topic-container">
+            {/* date */}
+            <p className="project-card-date">Fall 2023</p>
+            <p className="project-card-topic">Full-Stack Web Development</p>
+            <p className="project-card-topic">React</p>
+            <p className="project-card-topic">Tailwind CSS</p>
+            <p className="project-card-topic">Java Spring Boot</p>
+            <p className="project-card-topic">MySQL</p>
+          </div>
           {/* description */}
           <p>In order to bridge the gap in knowledge between medical information and day-to-day awareness, Medipin was created as a proof-of-concept, pin-and-note web application. With Medipin, users can create an account, search and save medical articles from an external API, organize articles based on customized topics, and add personalized notes to each article. This project was solo-coded by me; moreover, enhancements of the site will continue to come out when time permits.</p>
           </Fade>
@@ -28,8 +36,14 @@ export default function ProjectGallery() {
           <img src={require("./thumbnails/dcd-card-thumbnail.png")} alt="" className='project-card-img'/>
           {/* title */}
           <h4 className='text-left'>DCD 2022 ~ Creative Change x Youth Pride Inc.</h4>
-          {/* date */}
-          <p className="project-card-date">Summer 2022</p>
+          {/* topics */}
+          <div className="project-card-topic-container">
+            {/* date */}
+            <p className="project-card-date">Summer 2022</p>
+            <p className="project-card-topic">Graphic Design</p>
+            <p className="project-card-topic">Curriculum Development</p>
+            <p className="project-card-topic">Community Engagement</p>
+          </div>
           {/* description */}
           <p>As a Design Educator for DownCity Design's 2022 summer Creative Change program, it was my duty to educate a group of 14 youth in graphic design for social impact. In partnernship with Youth Pride Inc., these young designers used the design process to create brochures, stickers, flyers, and a banner.</p>
         </Fade>
@@ -42,8 +56,15 @@ export default function ProjectGallery() {
           <img src={require("./thumbnails/storyframing-card-thumbnail.png")} alt="" className='project-card-img'/>
           {/* title */}
           <h4 className='text-left'>Storyframing: An Exploration in Storytelling</h4>
-          {/* date */}
-          <p className="project-card-date">Spring 2022</p>
+          {/* topics */}
+          <div className="project-card-topic-container">
+            {/* date */}
+            <p className="project-card-date">Spring 2022</p>
+            <p className="project-card-topic">Decolonizing Design</p>
+            <p className="project-card-topic">Embodied Storytelling</p>
+            <p className="project-card-topic">Curriculum Development</p>
+            <p className="project-card-topic">Community Engagement</p>
+          </div>
           {/* description */}
           <p>Grounded by Linda Tuhiwai Smith’s definition of struggle (2012), this body of work evaluates the role of visual, verbal, and visceral storytelling in engaging the imagination as a language of possibility outside that of colonialism. It begs the question: how might we decolonize our minds, bodies, hearts, and spirits by (re-)engaging with and (re-)embodying the stories that we are involved within?</p>
         </Fade>
@@ -56,8 +77,14 @@ export default function ProjectGallery() {
           <img src={require("./thumbnails/teaching-card-thumbnail.png")} alt="teaching thumbnail showing snippets of teaching portfolio" className='project-card-img'/>
           {/* title */}
           <h4 className='text-left'>Teaching Portfolio</h4>
-          {/* date */}
-          <p className="project-card-date">Fall 2021</p>
+          {/* topics */}
+          <div className="project-card-topic-container">
+            {/* date */}
+            <p className="project-card-date">Fall 2021</p>
+            <p className="project-card-topic">Curriculum Development</p>
+            <p className="project-card-topic">Decolonizing Pedagogies</p>
+            <p className="project-card-topic">Collegiate-Level Teaching</p>
+          </div>
           {/* description */}
           <p>As part of the curriculum for receiving the Certificate in Collegiate Teaching in Art & Design, a teaching portfolio was required. Inside can be found my teaching philosophy, inclusivity statement, and examples of proposed and accepted syllabi. Over the winter of 2022, I taught the accepted class "Postcolonial Explorations: Decentering Western Design Thinking" to a total of 11 students across academic year and department over the span of 5 weeks.</p>
         </Fade>
@@ -70,8 +97,15 @@ export default function ProjectGallery() {
           <img src={require("./thumbnails/maharam-card-thumbnail.png")} alt="" className='project-card-img'/>
           {/* title */}
           <h4 className='text-left'>Maharam x Groundwork Rhode Island, Green Team Youth</h4>
-          {/* date */}
-          <p className="project-card-date">Summer 2021</p>
+          {/* topics */}
+          <div className="project-card-topic-container">
+            {/* date */}
+            <p className="project-card-date">Summer 2021</p>
+            <p className="project-card-topic">Systems Design</p>
+            <p className="project-card-topic">Social Impact</p>
+            <p className="project-card-topic">Curriculum Development</p>
+            <p className="project-card-topic">Community Engagement</p>
+          </div>
           {/* description */}
           <p>Funded through the Maharam Fellowship Grant awarded by RISD, my teammate (Juliana) and I partnered with Groundwork Rhode Island's Green Team Youth to introduce and follow-through with youth-led projects aimed at identifying and solving small-scale issues around Providence and Pawtucket. In the end, the youth advertised their designs to the local community at two separate events.</p>
         </Fade>
@@ -84,8 +118,14 @@ export default function ProjectGallery() {
           <img src={require("./thumbnails/tree-card-thumbnail.png")} alt="" className='project-card-img'/>
           {/* title */}
           <h4 className='text-left'>Growing a Systems Tree</h4>
-          {/* date */}
-          <p className="project-card-date">Spring 2021</p>
+          {/* topics */}
+          <div className="project-card-topic-container">
+            {/* date */}
+            <p className="project-card-date">Spring 2021</p>
+            <p className="project-card-topic">Systems Thinking</p>
+            <p className="project-card-topic">Cross-Cultural Communication</p>
+            <p className="project-card-topic">Theories of Change</p>
+          </div>
           {/* description */}
           <p>Through extensive research on decolonization and systems design, "Growing a Systems Tree: Designing a Shared Systems Mapping Framework for Cross-Cultural Collaboration Involving a Systemic Root Problem" was made. In it, I explore an Indigenous-centered case study and propose a new approach for mapping current systems and pinpointing potential intervention points.</p>
         </Fade>
@@ -98,8 +138,14 @@ export default function ProjectGallery() {
           <img src={require("./thumbnails/aaad-card-thumbnail.png")} alt="" className='project-card-img'/>
           {/* title */}
           <h4 className='text-left'>An Apple a Day</h4>
-          {/* date */}
-          <p className="project-card-date">Spring 2021</p>
+          {/* topics */}
+          <div className="project-card-topic-container">
+            {/* date */}
+            <p className="project-card-date">Spring 2021</p>
+            <p className="project-card-topic">Food Systems</p>
+            <p className="project-card-topic">Climate Change</p>
+            <p className="project-card-topic">Decolonizing Communication</p>
+          </div>
           {/* description */}
           <p>An Apple a Day: Following Food Waste, is an illustrative book following the story of food waste and its environmental impact along the entire food supply chain. Through visual storytelling, this children's book was planned to engage older audiences with deeper information through interactive openings.</p>
         </Fade>
@@ -112,8 +158,14 @@ export default function ProjectGallery() {
           <img src={require("./thumbnails/weaste-card-thumbnail.png")} alt="" className='project-card-img'/>
           {/* title */}
           <h4 className='text-left'>(we)aste</h4>
-          {/* date */}
-          <p className="project-card-date">Spring 2021</p>
+          {/* topics */}
+          <div className="project-card-topic-container">
+            {/* date */}
+            <p className="project-card-date">Spring 2021</p>
+            <p className="project-card-topic">Waste Production</p>
+            <p className="project-card-topic">Waste Awareness</p>
+            <p className="project-card-topic">Waste as Sculpture</p>
+          </div>
           {/* description */}
           <p>As commentary for the amount of waste produced during the design process during a core industrial design course, (we)aste consists of a trash can, skirt, and bag made of scavenged unwanted materials. It exists to raise awareness of unnecessary waste production oftentimes ignored throughout design, especially during the prototype phase.</p>
         </Fade>
@@ -126,22 +178,35 @@ export default function ProjectGallery() {
           <img src={require("./thumbnails/implant-card-thumbnail.png")} alt="" className='project-card-img'/>
           {/* title */}
           <h4 className='text-left'>Implant</h4>
-          {/* date */}
-          <p className="project-card-date">Fall 2020</p>
+          {/* topics */}
+          <div className="project-card-topic-container">
+            {/* date */}
+            <p className="project-card-date">Fall 2020</p>
+            <p className="project-card-topic">Food Systems</p>
+            <p className="project-card-topic">Social Impact</p>
+            <p className="project-card-topic">Service Design</p>
+          </div>
           {/* description */}
           <p>Implant was designed as a social service for addressing climate change through food systems. Based on reports from the Drawdown 2020, food is one of the largest intervention points for curbing carbon emission. Implant proposes a mobile food pantry which flexible and dynamically brings salvaged, locally-sourced prodouce to food apartheid areas.</p>
         </Fade>
       </Link>
 
-      {/* implant card */}
+      {/* care to covid card */}
       <Link className="project-card" to="https://drive.google.com/file/d/1QT_88RjV2CspRflmz6v9AGVzF0HiTbxn/view?usp=sharing" target='_blank'>
         <Fade>
           {/* image */}
           <img src={require("./thumbnails/covid-card-thumbnail.png")} alt="" className='project-card-img'/>
           {/* title */}
           <h4 className='text-left'>Care Towards an Environmentally-Just, Post-COVID Future</h4>
-          {/* date */}
-          <p className="project-card-date">Spring 2020</p>
+          {/* topics */}
+          <div className="project-card-topic-container">
+            {/* date */}
+            <p className="project-card-date">Spring 2020</p>
+            <p className="project-card-topic">Zine</p>
+            <p className="project-card-topic">Care & Hope</p>
+            <p className="project-card-topic">Public Health</p>
+            <p className="project-card-topic">Climate Change</p>
+          </div>
           {/* description */}
           <p>This zine was made during the initial shutdown of COVID-19 in America. It is a synthesis of my struggle and research with the pandemic and highlights important factors contributing to its effects. Topics include: hope, care, crisis; zoonotic diseases; discrimination and injustice; unexpected environmental outcomes; prevention tactics and better governing; and proposals for better futures.</p>
         </Fade>
@@ -154,8 +219,13 @@ export default function ProjectGallery() {
           <img src={require("./thumbnails/fanimalies-card-thumbnail.png")} alt="" className='project-card-img'/>
           {/* title */}
           <h4 className='text-left'>Fanimalies</h4>
-          {/* date */}
-          <p className="project-card-date">Summer 2018</p>
+          {/* topics */}
+          <div className="project-card-topic-container">
+            {/* date */}
+            <p className="project-card-date">Summer 2018</p>
+            <p className="project-card-topic">Black & White Photography</p>
+            <p className="project-card-topic">Family Relationships</p>
+          </div>
           {/* description */}
           <p>Fanimalies was completed during a black-and-white film photography class over the Summer of 2018. One outing during the class led us to the RISD Nature Lab where I spent hours requesting, re-arranging, and re-photographing groups of taxidermy animals. The name is a mashup of the words "family" and "animals" which alludes to its themes of showcasing dynamic relationships through these objects, previously subjects.</p>
         </Fade>
@@ -168,8 +238,13 @@ export default function ProjectGallery() {
           <img src={require("./thumbnails/glyphs-card-thumbnail.png")} alt="" className='project-card-img'/>
           {/* title */}
           <h4 className='text-left'>Glyphs</h4>
-          {/* date */}
-          <p className="project-card-date">Spring 2017</p>
+          {/* topics */}
+          <div className="project-card-topic-container">
+            {/* date */}
+            <p className="project-card-date">Spring 2017</p>
+            <p className="project-card-topic">Watercolor</p>
+            <p className="project-card-topic">Poetry</p>
+          </div>
           {/* description */}
           <p>Glyphs is a watercolored series of images bounded in a book. inside are written poems with every letter replaced with a different glyph. the artworks attached were made via a starting scribble and then freely filled in.</p>
         </Fade>

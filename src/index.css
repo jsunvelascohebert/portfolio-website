@@ -43,6 +43,12 @@
   .project-card-date {
     @apply text-sm font-light bg-darkPurple text-white px-2 rounded-full;
   }
+  .project-card-topic-container {
+    @apply flex flex-wrap w-full justify-start items-center gap-1;
+  }
+  .project-card-topic {
+    @apply text-sm font-light bg-white text-darkPurple px-2 rounded-full border border-darkPurple;
+  }
   .project-card p {
     @apply text-sm;
   }
