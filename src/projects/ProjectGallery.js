@@ -5,7 +5,7 @@ import { Fade } from 'react-awesome-reveal';
 export default function ProjectGallery() {
   return (<>
     {/* project gallery */}
-    <div className="w-full flex flex-wrap justify-center items-stretch border-2 border-darkPurple">
+    <div className="w-full flex flex-wrap justify-center items-stretch border-2 border-darkPurple bg-purple">
 
       {/* medipin card */}
       <Link className='project-card' to='/projects/medipin'>
@@ -53,7 +53,7 @@ export default function ProjectGallery() {
       <Link className="project-card" to="https://drive.google.com/file/d/1dmKtW_GW4LIgaNQ37eyLrvi3DdiUVqJC/view?usp=sharing" target="_blank">
         <Fade>
           {/* image */}
-          <img src={require("./thumbnails/teaching-card-thumbnail.png")} alt="" className='project-card-img'/>
+          <img src={require("./thumbnails/teaching-card-thumbnail.png")} alt="teaching thumbnail showing snippets of teaching portfolio" className='project-card-img'/>
           {/* title */}
           <h4 className='text-left'>Teaching Portfolio</h4>
           {/* date */}
@@ -91,6 +91,20 @@ export default function ProjectGallery() {
         </Fade>
       </Link>
 
+      {/* cli haz book card */}
+      <Link className="project-card" to="https://drive.google.com/file/d/1sG7fJXvWs8RN2aWX_7TKf5MRodjl7FaC/view?usp=sharing" target="_blank">
+        <Fade>
+          {/* image */}
+          <img src={require("./thumbnails/aaad-card-thumbnail.png")} alt="" className='project-card-img'/>
+          {/* title */}
+          <h4 className='text-left'>an apple a day</h4>
+          {/* date */}
+          <p className="project-card-date">Spring 2021</p>
+          {/* description */}
+          <p>An Apple a Day: Following Food Waste, is an illustrative book following the story of food waste and its environmental impact along the entire food supply chain. Through visual storytelling, this children's book was planned to engage older audiences with deeper information through interactive openings.</p>
+        </Fade>
+      </Link>
+
       {/* weaste card */}
       <Link className="project-card" to="https://drive.google.com/drive/folders/1vZXPwvSji5XJSaF7jkVSlXQA0gq-I7eG?usp=sharing" target='_blank'>
         <Fade>
@@ -102,6 +116,48 @@ export default function ProjectGallery() {
           <p className="project-card-date">Spring 2021</p>
           {/* description */}
           <p>As commentary for the amount of waste produced during the design process during a core industrial design course, (we)aste consists of a trash can, skirt, and bag made of scavenged unwanted materials. It exists to raise awareness of unnecessary waste production oftentimes ignored throughout design, especially during the prototype phase.</p>
+        </Fade>
+      </Link>
+
+      {/* implant card */}
+      <Link className="project-card" to="https://drive.google.com/drive/folders/1VfnHLWk-4C5dn7lcP_LU78nntcOGDbeo?usp=sharing" target='_blank'>
+        <Fade>
+          {/* image */}
+          <img src={require("./thumbnails/implant-card-thumbnail.png")} alt="" className='project-card-img'/>
+          {/* title */}
+          <h4 className='text-left'>implant</h4>
+          {/* date */}
+          <p className="project-card-date">Fall 2020</p>
+          {/* description */}
+          <p>implant was designed as a social service for addressing climate change through food systems. Based on reports from the Drawdown 2020, food is one of the largest intervention points for curbing carbon emission. implant proposes a mobile food pantry which flexible and dynamically brings salvaged, locally-sourced prodouce to food apartheid areas.</p>
+        </Fade>
+      </Link>
+
+      {/* implant card */}
+      <Link className="project-card" to="https://drive.google.com/file/d/1QT_88RjV2CspRflmz6v9AGVzF0HiTbxn/view?usp=sharing" target='_blank'>
+        <Fade>
+          {/* image */}
+          <img src={require("./thumbnails/covid-card-thumbnail.png")} alt="" className='project-card-img'/>
+          {/* title */}
+          <h4 className='text-left'>care towards an environmentally-just, post-COVID future</h4>
+          {/* date */}
+          <p className="project-card-date">Spring 2020</p>
+          {/* description */}
+          <p>This zine was made during the initial shutdown of COVID-19 in America. It is a synthesis of my struggle and research with the pandemic and highlights important factors contributing to its effects. Topics include: hope, care, crisis; zoonotic diseases; discrimination and injustice; unexpected environmental outcomes; prevention tactics and better governing; and proposals for better futures.</p>
+        </Fade>
+      </Link>
+
+      {/* fanimalies card */}
+      <Link className="project-card" to="https://drive.google.com/drive/folders/1a3oMW0NILTMzED7oldDfMA9gB_9rcH4r?usp=sharing" target='_blank'>
+        <Fade>
+          {/* image */}
+          <img src={require("./thumbnails/fanimalies-card-thumbnail.png")} alt="" className='project-card-img'/>
+          {/* title */}
+          <h4 className='text-left'>fanimalies</h4>
+          {/* date */}
+          <p className="project-card-date">Summer 2018</p>
+          {/* description */}
+          <p>Fanimalies was completed during a black-and-white film photography class over the Summer of 2018. One outing during the class led us to the RISD Nature Lab where I spent hours requesting, re-arranging, and re-photographing groups of taxidermy animals. The name is a mashup of the words "family" and "animals" which alludes to its themes of showcasing dynamic relationships through these objects, previously subjects.</p>
         </Fade>
       </Link>
 
