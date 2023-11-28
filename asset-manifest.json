@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-website/static/css/main.f3c7ef79.css",
-    "main.js": "/portfolio-website/static/js/main.4572b502.js",
+    "main.css": "/portfolio-website/static/css/main.757df2ac.css",
+    "main.js": "/portfolio-website/static/js/main.99a61f82.js",
     "static/js/787.861fdc3f.chunk.js": "/portfolio-website/static/js/787.861fdc3f.chunk.js",
     "static/media/maharam-card-thumbnail.png": "/portfolio-website/static/media/maharam-card-thumbnail.ad11250a64f99c0daf2a.png",
     "static/media/storyframing-card-thumbnail.png": "/portfolio-website/static/media/storyframing-card-thumbnail.e7f65305633ad9b3d656.png",
@@ -18,14 +18,15 @@
     "static/media/tree-card-thumbnail.png": "/portfolio-website/static/media/tree-card-thumbnail.7db6d780c0ca6c12ebae.png",
     "static/media/medipin-ideate-thumbnail.png": "/portfolio-website/static/media/medipin-ideate-thumbnail.4da54d293bf0d2a5db74.png",
     "static/media/medipin-define-thumbnail.png": "/portfolio-website/static/media/medipin-define-thumbnail.b80a2db6c748229859cb.png",
+    "static/media/hero-logo_1.png": "/portfolio-website/static/media/hero-logo_1.1b1b2c5e15e4d644b330.png",
     "static/media/medipin-deploy-thumbnail.png": "/portfolio-website/static/media/medipin-deploy-thumbnail.c6f41c5753b1d2716786.png",
     "index.html": "/portfolio-website/index.html",
-    "main.f3c7ef79.css.map": "/portfolio-website/static/css/main.f3c7ef79.css.map",
-    "main.4572b502.js.map": "/portfolio-website/static/js/main.4572b502.js.map",
+    "main.757df2ac.css.map": "/portfolio-website/static/css/main.757df2ac.css.map",
+    "main.99a61f82.js.map": "/portfolio-website/static/js/main.99a61f82.js.map",
     "787.861fdc3f.chunk.js.map": "/portfolio-website/static/js/787.861fdc3f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f3c7ef79.css",
-    "static/js/main.4572b502.js"
+    "static/css/main.757df2ac.css",
+    "static/js/main.99a61f82.js"
   ]
 }
