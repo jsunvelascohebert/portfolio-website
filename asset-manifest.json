@@ -1,12 +1,11 @@
 {
   "files": {
-    "main.css": "/portfolio-website/static/css/main.94e9b394.css",
-    "main.js": "/portfolio-website/static/js/main.c526de89.js",
+    "main.css": "/portfolio-website/static/css/main.f3c7ef79.css",
+    "main.js": "/portfolio-website/static/js/main.4572b502.js",
     "static/js/787.861fdc3f.chunk.js": "/portfolio-website/static/js/787.861fdc3f.chunk.js",
     "static/media/maharam-card-thumbnail.png": "/portfolio-website/static/media/maharam-card-thumbnail.ad11250a64f99c0daf2a.png",
     "static/media/storyframing-card-thumbnail.png": "/portfolio-website/static/media/storyframing-card-thumbnail.e7f65305633ad9b3d656.png",
     "static/media/weaste-card-thumbnail.png": "/portfolio-website/static/media/weaste-card-thumbnail.941847d05bdd6c62c65e.png",
-    "static/media/jvh_headshot.png": "/portfolio-website/static/media/jvh_headshot.3c25193941f393c5d68b.png",
     "static/media/medipin-topic.png": "/portfolio-website/static/media/medipin-topic.4a05284cf12003cf2e0d.png",
     "static/media/medipin-search.png": "/portfolio-website/static/media/medipin-search.8b848096bb543681110e.png",
     "static/media/medipin-notes.png": "/portfolio-website/static/media/medipin-notes.74178540b5feb2448697.png",
@@ -21,12 +20,12 @@
     "static/media/medipin-define-thumbnail.png": "/portfolio-website/static/media/medipin-define-thumbnail.b80a2db6c748229859cb.png",
     "static/media/medipin-deploy-thumbnail.png": "/portfolio-website/static/media/medipin-deploy-thumbnail.c6f41c5753b1d2716786.png",
     "index.html": "/portfolio-website/index.html",
-    "main.94e9b394.css.map": "/portfolio-website/static/css/main.94e9b394.css.map",
-    "main.c526de89.js.map": "/portfolio-website/static/js/main.c526de89.js.map",
+    "main.f3c7ef79.css.map": "/portfolio-website/static/css/main.f3c7ef79.css.map",
+    "main.4572b502.js.map": "/portfolio-website/static/js/main.4572b502.js.map",
     "787.861fdc3f.chunk.js.map": "/portfolio-website/static/js/787.861fdc3f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.94e9b394.css",
-    "static/js/main.c526de89.js"
+    "static/css/main.f3c7ef79.css",
+    "static/js/main.4572b502.js"
   ]
 }
