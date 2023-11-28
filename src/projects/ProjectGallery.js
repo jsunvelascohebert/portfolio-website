@@ -20,6 +20,20 @@ export default function ProjectGallery() {
           <p>In order to bridge the gap in knowledge between medical information and day-to-day awareness, Medipin was created as a proof-of-concept, pin-and-note web application. With Medipin, users can create an account, search and save medical articles from an external API, organize articles based on customized topics, and add personalized notes to each article. This project was solo-coded by me; moreover, enhancements of the site will continue to come out when time permits.</p>
           </Fade>
       </Link>
+
+      {/* creative change card */}
+      <Link className="project-card" to="https://drive.google.com/file/d/1SdbBcSbxipJA47eJi8gCKUsUHbk8Ulkx/view?usp=sharing" target='_blank'>
+        <Fade>
+          {/* image */}
+          <img src={require("./thumbnails/dcd-card-thumbnail.png")} alt="" className='project-card-img'/>
+          {/* title */}
+          <h4 className='text-left'>DCD 2022 ~ Creative Change x Youth Pride Inc.</h4>
+          {/* date */}
+          <p className="project-card-date">Summer 2022</p>
+          {/* description */}
+          <p>As a Design Educator for DownCity Design's 2022 summer Creative Change program, it was my duty to educate a group of 14 youth in graphic design for social impact. In partnernship with Youth Pride Inc., these young designers used the design process to create brochures, stickers, flyers, and a banner.</p>
+        </Fade>
+      </Link>
       
       {/* storyframing card */}
       <Link className="project-card" to="https://drive.google.com/file/d/16veGCVLnfdNJlQdSiQESBPREoRg-8EDi/view?usp=sharing" target='_blank'>
@@ -90,6 +104,8 @@ export default function ProjectGallery() {
           <p>As commentary for the amount of waste produced during the design process during a core industrial design course, (we)aste consists of a trash can, skirt, and bag made of scavenged unwanted materials. It exists to raise awareness of unnecessary waste production oftentimes ignored throughout design, especially during the prototype phase.</p>
         </Fade>
       </Link>
+
+
     </div>
   </>);
 }
