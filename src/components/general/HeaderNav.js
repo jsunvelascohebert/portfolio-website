@@ -10,7 +10,12 @@ export default function HeaderNav() {
     {/* desktop headernav */}
     <div className="hidden w-full sticky top-0 bg-purple md:flex flex-row justify-between items-center p-4 border-4 border-darkPurple z-50">
       {/* logo */}
-      <Link to="/" className='font-bold hover:font-extrabold hover:underline text-darkPurple'>jsun velasco-hébert</Link>
+      <Link to="/" className='flex flex-row justify-center items-center gap-4 group'>
+        {/* logo */}
+        <img src={require('./../assets/hero-logo_1.png')} alt="logo" className='max-h-[3vh] group-hover:scale-105' />
+        {/* name */}
+        <div className='font-bold group-hover:font-extrabold group-hover:underline text-darkPurple'>jsun velasco-hébert</div>
+      </Link>
       {/* menu items */}
       <div className="flex flex-row gap-10 justify-center items-center">
         <Link to="" className='menu-item-disabled'>about</Link>
@@ -30,7 +35,14 @@ export default function HeaderNav() {
     
     {/* mobile headernav */}
     <div className="sticky top-0 w-full flex flex-row md:hidden justify-between items-center bg-purple p-3 border-4 border-darkPurple z-50">
-      <Link to="/" className='text-sm font-bold hover:font-extrabold hover:underline text-darkPurple'>jsun velasco-hébert</Link>
+      <Link to="/" className='flex flex-row gap-2 justify-center items-center group'>
+        {/* logo */}
+        <img src={require('./../assets/hero-logo_1.png')} alt="logo" className='max-h-[3vh] group-hover:scale-105' />
+        {/* name */}
+        <div className='text-sm font-bold group-hover:font-extrabold group-hover:underline text-darkPurple'>
+          jsun velasco-hébert
+        </div>
+      </Link>
       <IoMenu className='text-darkPurple text-2xl'/>
     </div>
   </>);

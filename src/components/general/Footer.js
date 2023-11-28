@@ -8,8 +8,15 @@ export default function Footer() {
   return (<>
     {/* desktop footer */}
     <div className="w-full bg-purple border-4 border-darkPurple hidden md:flex flex-row justify-between items-center p-10">
-      {/* name */}
-      <Link to="/" className='text-darkPurple font-bold hover:font-extrabold hover:underline'>jsun velasco-hébert</Link>
+      {/* logo and name */}
+      <Link to="/" className='flex flex-col justify-center items-center gap-4 group'>
+        {/* logo */}
+        <img src={require('./../assets/hero-logo_1.png')} alt="logo" className='max-h-[10vh] group-hover:scale-105' />
+        {/* name */}
+        <div className='text-darkPurple font-bold group-hover:font-extrabold group-hover:underline'>
+          jsun velasco-hébert
+        </div>
+      </Link>
 
       {/* portfolio links */}
       <div className="flex flex-col justify-center items-center gap-3">
@@ -40,9 +47,14 @@ export default function Footer() {
 
     {/* mobile footer */}
     <div className="w-full flex md:hidden flex-col bg-purple border-4 border-darkPurple justify-center items center p-5 py-10 gap-14">
-      {/* name */}
-      <Link to="/" className='text-darkPurple font-bold hover:font-extrabold hover:underline text-center'>
-        jsun velasco-hébert
+      {/* logo and name */}
+      <Link to="/" className='flex flex-col justify-center items-center gap-4 group'>
+        {/* logo */}
+        <img src={require('./../assets/hero-logo_1.png')} alt="logo" className='max-h-[12vh] group-hover:scale-105' />
+        {/* name */}
+        <div className='text-darkPurple font-bold hover:font-extrabold hover:underline text-center'>
+          jsun velasco-hébert
+        </div>
       </Link>
 
       {/* links */}

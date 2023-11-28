@@ -8,8 +8,10 @@ export default function Home() {
     <section id="home" className="w-full min-h-screen flex flex-col gap-10">
 
       {/* hero banner */}
-      <div className='w-full h-[90vh] flex flex-col md:flex-row justify-center md:justify-center items-center p-10 gap-10 md:gap-20 bg-gradient-to-b from-purple to-white'>
+      <div className='w-full min-h-[90vh] flex flex-col justify-center md:justify-center items-center p-10 gap-10 md:gap-20 bg-gradient-to-b from-purple to-white'>
         <Fade>
+          {/* logo */}
+          <img src={require('./../assets/hero-logo_1.png')} alt='logo' className='max-w-[50vw] sm:max-w-[25vw]' />
         {/* name */}
         <div className="flex flex-col justify-start items-center gap-3">
           <h1 className='text-2xl sm:text-6xl'>jsun velasco-hébert</h1>
