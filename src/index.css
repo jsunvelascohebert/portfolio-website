@@ -23,7 +23,7 @@
     @apply font-nunito font-semibold text-lg tracking-wide text-center text-darkPurple;
   }
   p {
-    @apply font-nunito font-normal text-sm text-black;
+    @apply font-nunito font-normal text-sm text-black leading-7;
   }
   .base-container {
     @apply w-full flex flex-col justify-center items-center gap-10;
@@ -47,13 +47,13 @@
     @apply object-cover w-full border-2 border-darkPurple;
   }
   .project-card-date {
-    @apply text-sm font-semibold bg-darkPurple text-white px-2 rounded-full;
+    @apply text-sm font-semibold bg-darkPurple text-white px-2 rounded-full hover:cursor-crosshair;
   }
   .project-card-topic-container {
     @apply flex flex-wrap w-full justify-start items-center gap-1;
   }
   .project-card-topic {
-    @apply text-sm font-light bg-white text-darkPurple px-2 rounded-full border border-darkPurple;
+    @apply text-sm font-medium bg-white text-darkPurple px-2 rounded-full border border-darkPurple hover:cursor-crosshair;
   }
   .project-card p {
     @apply text-sm;
@@ -112,6 +112,14 @@
   .cv-school-diploma {
     @apply text-left text-lg md:text-xl;
   }
+
+  /* process question frames */
+  .process-question {
+    @apply underline font-bold text-darkPurple underline-offset-4 hover:cursor-crosshair;
+  }
+  .process-outcome-badge {
+    @apply italic font-bold text-darkPurple hover:cursor-crosshair;
+  }
 }
 
 @media screen(md) {
@@ -134,6 +142,6 @@
     @apply text-base;
   }
   p {
-    @apply font-nunito font-normal text-base;
+    @apply font-nunito font-normal text-base leading-8;
   }
 }

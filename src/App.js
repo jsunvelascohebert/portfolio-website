@@ -9,6 +9,7 @@ import ProjectPage from './projects/ProjectPage';
 import CV from './components/pages/CV';
 import ScrollToTop from './components/general/ScrollToTop';
 import MedipinPage from './projects/medipin/MedipinPage';
+import Process from './components/pages/Process';
 
 function App() {
   return (<>
@@ -19,6 +20,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/cv" element={<CV />} />
+        <Route path="/process" element={<Process />} />
         <Route path="/projects" element={<ProjectPage />} />
         <Route path="/projects/medipin" element={<MedipinPage />} />
         <Route path="*" element={<Navigate to="/" />} />
