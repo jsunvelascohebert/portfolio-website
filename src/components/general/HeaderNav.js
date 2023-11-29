@@ -19,7 +19,7 @@ export default function HeaderNav() {
       {/* menu items */}
       <div className="flex flex-row gap-10 justify-center items-center">
         <Link to="" className='menu-item-disabled'>about</Link>
-        <Link to="" className='menu-item-disabled'>cv</Link>
+        <Link to="/cv" className='menu-item'>cv</Link>
         <Link to="/projects" className='menu-item'>projects</Link>
       </div>
       {/* link icons */}

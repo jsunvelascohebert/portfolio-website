@@ -4,9 +4,9 @@ import { Fade } from 'react-awesome-reveal';
 
 export default function ProjectPage() {
   return (<>
-    <div className="w-full flex flex-col justify-center items-center gap-10">
+    <div className="base-container">
       <Fade className='w-full'>
-        <div className="w-full h-[65vh] flex flex-col justify-center items-center bg-gradient-to-b from-purple to-white">
+        <div className="page-header-spaced">
           <h1>projects</h1>
         </div>
         <div className='p-4 pb-10'>

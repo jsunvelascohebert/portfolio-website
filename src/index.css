@@ -25,6 +25,12 @@
   p {
     @apply font-nunito font-normal text-sm text-black;
   }
+  .base-container {
+    @apply w-full flex flex-col justify-center items-center gap-10;
+  }
+  .page-header-spaced {
+    @apply w-full h-[65vh] flex flex-col justify-center items-center bg-gradient-to-b from-purple to-white;
+  }
   .menu-item {
     @apply font-nunito font-normal text-base text-darkPurple hover:font-bold hover:cursor-pointer hover:underline;
   }
@@ -41,7 +47,7 @@
     @apply object-cover w-full border-2 border-darkPurple;
   }
   .project-card-date {
-    @apply text-sm font-light bg-darkPurple text-white px-2 rounded-full;
+    @apply text-sm font-semibold bg-darkPurple text-white px-2 rounded-full;
   }
   .project-card-topic-container {
     @apply flex flex-wrap w-full justify-start items-center gap-1;
@@ -87,6 +93,24 @@
   }
   .medipin-document-icon {
     @apply text-2xl md:text-4xl;
+  }
+
+  /* cv styles */
+
+  .cv-school-container {
+    @apply flex flex-col sm:flex-row md:flex-col lg:flex-row justify-center items-stretch border-2 border-darkPurple md:w-1/2;
+  }
+  .cv-school-logo {
+    @apply w-full flex justify-center items-center bg-purple p-10;
+  }
+  .cv-school-info-container {
+    @apply flex flex-col justify-center md:justify-start items-center md:items-start gap-3 p-4;
+  }
+  .cv-school-name {
+    @apply text-left text-xl md:text-2xl;
+  }
+  .cv-school-diploma {
+    @apply text-left text-lg md:text-xl;
   }
 }
 
