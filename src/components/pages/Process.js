@@ -3,17 +3,23 @@ import { Fade } from 'react-awesome-reveal';
 
 export default function Process() {
   return (<>
-    <div className="base-container">
+    <div className="base-container pb-10">
 
       {/* header */}
       <div className="page-header-spaced">
-        <Fade><h1>process</h1></Fade>
+        <Fade><h1>design process</h1></Fade>
+      </div>
+
+      {/* hero image */}
+      <div className="w-[90vw] sm:w-[75vw] md:w-[50vw] flex justify-center items-center pb-10">
+        <Fade><img src={require('./../assets/process-diagram.png')} alt="" /></Fade>
       </div>
 
       {/* design definition container */}<Fade>
       <div className="w-[85vw] flex flex-col md:flex-row justify-center items-start gap-10">
+        
         {/* design def quote */}<Fade className='w-full md:w-1/2'>
-        <h3 className='text-center md:text-right w-full'><span className='opacity-40'>Design is a dynamic, non-linear process that involves </span>discussing, deciding, delegating, and doing, <span className='opacity-40'>all underpinned by the continual act of </span>empathizing<span className='opacity-40'>. This iterative cycle is enveloped in a protective and evolving layer of </span>diversity, inclusivity, equity, and self-determination<span className='opacity-40'>, values that form the bedrock of my approach to design.</span></h3></Fade>
+        <h3 className='text-left md:text-right w-full'><span className='opacity-40'>Design is a dynamic, non-linear process that involves </span>discussing, deciding, delegating, and doing, <span className='opacity-40'>all underpinned by the continual act of </span>empathizing<span className='opacity-40'>. This iterative cycle is enveloped in a protective and evolving layer of </span>diversity, inclusivity, equity, and self-determination<span className='opacity-40'>, values that form the bedrock of my approach to design.</span></h3></Fade>
         
         {/* remaining definition */}<Fade className='w-full md:w-1/2'>
         <div className='flex flex-col justify-start items-start w-full gap-5'>
