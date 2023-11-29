@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-website/static/css/main.e0d412e7.css",
-    "main.js": "/portfolio-website/static/js/main.2fe98b52.js",
+    "main.css": "/portfolio-website/static/css/main.d2ba9bb7.css",
+    "main.js": "/portfolio-website/static/js/main.b33fa77e.js",
     "static/js/787.861fdc3f.chunk.js": "/portfolio-website/static/js/787.861fdc3f.chunk.js",
     "static/media/aaad-card-thumbnail.png": "/portfolio-website/static/media/aaad-card-thumbnail.0ad666fae3987fe7848a.png",
     "static/media/maharam-card-thumbnail.png": "/portfolio-website/static/media/maharam-card-thumbnail.ad11250a64f99c0daf2a.png",
@@ -13,6 +13,7 @@
     "static/media/medipin-search.png": "/portfolio-website/static/media/medipin-search.8b848096bb543681110e.png",
     "static/media/medipin-notes.png": "/portfolio-website/static/media/medipin-notes.74178540b5feb2448697.png",
     "static/media/medipin-thumbnail.png": "/portfolio-website/static/media/medipin-thumbnail.705c1162292076cd9915.png",
+    "static/media/process-diagram.png": "/portfolio-website/static/media/process-diagram.d335d6b7a452bcee39c9.png",
     "static/media/covid-card-thumbnail.png": "/portfolio-website/static/media/covid-card-thumbnail.7683336bcbe1b5b884e3.png",
     "static/media/medipin-empathize-thumbnail.png": "/portfolio-website/static/media/medipin-empathize-thumbnail.4a64f0fccb27e27fb229.png",
     "static/media/teaching-card-thumbnail.png": "/portfolio-website/static/media/teaching-card-thumbnail.ee88c8f75ba9d019bf7a.png",
@@ -26,13 +27,14 @@
     "static/media/medipin-define-thumbnail.png": "/portfolio-website/static/media/medipin-define-thumbnail.b80a2db6c748229859cb.png",
     "static/media/hero-logo_1.png": "/portfolio-website/static/media/hero-logo_1.1b1b2c5e15e4d644b330.png",
     "static/media/medipin-deploy-thumbnail.png": "/portfolio-website/static/media/medipin-deploy-thumbnail.c6f41c5753b1d2716786.png",
+    "static/media/risd-logo.png": "/portfolio-website/static/media/risd-logo.e7e0809ff8a3b2b81e5c.png",
     "index.html": "/portfolio-website/index.html",
-    "main.e0d412e7.css.map": "/portfolio-website/static/css/main.e0d412e7.css.map",
-    "main.2fe98b52.js.map": "/portfolio-website/static/js/main.2fe98b52.js.map",
+    "main.d2ba9bb7.css.map": "/portfolio-website/static/css/main.d2ba9bb7.css.map",
+    "main.b33fa77e.js.map": "/portfolio-website/static/js/main.b33fa77e.js.map",
     "787.861fdc3f.chunk.js.map": "/portfolio-website/static/js/787.861fdc3f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e0d412e7.css",
-    "static/js/main.2fe98b52.js"
+    "static/css/main.d2ba9bb7.css",
+    "static/js/main.b33fa77e.js"
   ]
 }
