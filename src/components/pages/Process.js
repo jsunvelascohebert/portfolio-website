@@ -7,11 +7,17 @@ export default function Process() {
 
       {/* header */}
       <div className="page-header-spaced">
-        <Fade><h1>design process</h1></Fade>
+        <Fade>
+          <div className="w-full flex flex-col justify-center items-center gap-10">
+            <h1>design process</h1>
+            <p className="project-card-topic scale-120 md:scale-150">
+              design with empathy and equity</p>
+          </div>  
+        </Fade>
       </div>
 
       {/* hero image */}
-      <div className="w-[90vw] sm:w-[75vw] md:w-[50vw] flex justify-center items-center pb-10">
+      <div className="w-[90vw] sm:w-[75vw] md:w-[50vw] flex flex-col justify-center items-center pb-10">
         <Fade><img src={require('./../assets/process-diagram.png')} alt="" /></Fade>
       </div>
 
