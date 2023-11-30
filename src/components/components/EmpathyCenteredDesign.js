@@ -3,11 +3,13 @@ import React from 'react';
 export default function EmpathyCenteredDesign() {
   return (<>
     {/* general container */}
-    <div className="base-container bg-lightPurple border-2 border-darkPurple py-10">
+    <div className="base-container bg-lightPurple border-2 border-darkPurple pt-14 gap-20">
       {/* header */}
       <h2>design outline</h2>
       {/* text */}
       <h5 className='w-[75vw] md:w-[50vw]'>Design is a non-linear process of discussing, deciding, delegating, and doing supported by the constant act of empathizing</h5>
+
+      <div className="w-full flex flex-col justify-center items-center gap-0 border-t-2 border-darkPurple">
 
       {/* empathy box */}
       <div className="w-full flex flex-col md:flex-row justify-start md:justify-center items-start md:items-center border-2 border-darkPurple bg-purple gap-6 md:gap-24 p-5">
@@ -22,7 +24,7 @@ export default function EmpathyCenteredDesign() {
                 <div className="font-bold underline">Techniques/Approaches:</div>
                 <div className="project-card-topic">talking circles</div>
                 <div className="project-card-topic">diverse forms of interaction</div>
-                <div className="project-card-topic">early establishment of community guidelines</div>
+                <div className="project-card-topic">community guidelines</div>
               </div>
             </li>
             <li>
@@ -46,8 +48,118 @@ export default function EmpathyCenteredDesign() {
       </div>
 
       {/* 4 d's flex-wrap (4x1) (2x2) (1x4) */}
+      <div className="w-full flex flex-wrap">
+          
+        {/* discuss */}
+        <div className="design-process-d-container">
+          {/* header */}
+          <h3>discuss</h3>
+          {/* content */}
+          <div className="flex flex-col justify-start items-start  gap-6">
+            <p><span className='project-card-date'>Discussing</span> is where we tell our stories. Using talking circles and relational idea generation, we maintain a safe space free from judgement, assumption, and disruptions.</p>
+            <ul className='list-disc list-outside space-y-3'>
+              <li>
+              <div className='project-card-topic-container'>
+                  <div className="font-bold underline">Techniques/Approaches:</div>
+                  <div className="project-card-topic">talking circles</div>
+                  <div className="project-card-topic">sticky note stories</div>
+                  <div className="project-card-topic">refer to guidelines</div>
+                </div>
+              </li>
+              <li>
+                <div className="project-card-topic-container">
+                  <div className="font-bold underline">Guiding questions:</div>
+                  <div className="process-question">"what is the story that brings you here today?",</div>
+                  <div className="process-question">"what other stories have you heard?",</div>
+                  <div className="process-question">"what stories do you want to tell or be told?"</div>
+                </div>
+              </li>
+              <li>
+                <div className="project-card-topic-container">
+                  <div className="font-bold underline">Outcomes:</div>
+                  <div className="process-outcome-badge">Collection of Stories</div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        {/* decide */}
+        <div className="design-process-d-container">
+          {/* header */}
+          <h3>decide</h3>
+          {/* content */}
+          <div className="flex flex-col justify-start items-start  gap-6">
+            <p><span className='project-card-date'>Deciding</span> is when we synthesize our stories. We map them together in a sticky web of endless interactions. Patterns emerge within this decentralized network which we build upon.</p>
+            <ul className='list-disc list-outside space-y-3'>
+              <li>
+              <div className='project-card-topic-container'>
+                  <div className="font-bold underline">Techniques/Approaches:</div>
+                  <div className="project-card-topic">mapping workshops</div>
+                </div>
+              </li>
+              <li>
+                <div className="project-card-topic-container">
+                  <div className="font-bold underline">Guiding questions:</div>
+                  <div className="process-question">"what stories resonated with your own",</div>
+                  <div className="process-question">"can you tell us more about that relationship?"</div>
+                </div>
+              </li>
+              <li>
+                <div className="project-card-topic-container">
+                  <div className="font-bold underline">Outcomes:</div>
+                  <div className="process-outcome-badge">Web of Stories</div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
 
 
+        {/* delegate */}
+        <div className="design-process-d-container">
+          {/* header */}
+          <h3>delegate</h3>
+          {/* content */}
+          <div className="flex flex-col justify-start items-start  gap-6">
+            <p><span className='project-card-date'>Delegating</span> is where the group refines their guiding principles, roles, resources, rules, responsibilities, and relationships. To do so, user perspectives will be articulated and project proposals written and revised.</p>
+            <ul className='list-disc list-outside space-y-3'>
+              <li>
+              <div className='project-card-topic-container'>
+                  <div className="font-bold underline">Techniques/Approaches:</div>
+                    <div className="project-card-topic">story perspectives</div>
+                    <div className="project-card-topic">project outlines</div>
+                </div>
+              </li>
+              <li>
+                <div className="project-card-topic-container">
+                  <div className="font-bold underline">Guiding questions:</div>
+                  <div className="process-question">“what emerging stories are resonating with you?”,</div>
+                    <div className="process-question">"what is your vision?",</div>
+                    <div className="process-question">"what resources, rules, and responsibilities do you need to make those visions come true?",</div>
+                    <div className="process-question">what are your goals, outcomes, needs, and deliverables?"</div>
+                </div>
+              </li>
+              <li>
+                <div className="project-card-topic-container">
+                  <div className="font-bold underline">Outcomes:</div>
+                    <div className="process-outcome-badge">Story Perspectives,</div>
+                    <div className="process-outcome-badge">Project Proposals</div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+
+        {/* do */}
+        <div className="design-process-d-container">
+          {/* header */}
+          <h3>do</h3>
+        </div>
+      </div>
+
+      </div>
     </div>
   
   </>);

@@ -123,6 +123,10 @@
   .process-outcome-badge {
     @apply italic font-bold text-darkPurple hover:cursor-crosshair;
   }
+  /* empathy centered designer styles */
+  .design-process-d-container {
+    @apply flex flex-col justify-center items-start gap-5 w-full md:basis-1/2 border-2 border-darkPurple p-10;
+  }
 }
 
 @media screen(md) {
