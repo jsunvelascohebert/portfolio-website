@@ -35,8 +35,30 @@ export default function Process() {
             
           <Fade><p className='opacity-50'>This continuous cycle of design is sustained by the constant upkeep of these core values, ensuring that empathy remains at the forefront, and the process unfolds smoothly.</p></Fade>
         </div></Fade>
-      </div></Fade>
+        </div></Fade>
+      
 
+
+
+      {/* TEMP -- PROCESS PAGE NEW FEATURES */}
+      <div className="flex flex-col w-full bg-lightPurple border-2 border-darkPurple py-10 justify-center items-center">
+        {/* heading text */}
+        <div className='flex flex-col justify-center items-center max-w-[90vw] md:max-w-[50vw] gap-10'>
+          <h3>upcoming page updates</h3>
+          <p>In alignment with the visuals created in the written excerpt above, the next updates of this website will better outline the ideas into a list format and supply external links to examples where necessary. In particular, the techniques and outcomes of each design phase will be linked to show tangible approaches to them. The below image placeholders are supplied for transparency.</p>
+        </div>
+
+        {/* images */}
+        <div className="flex flex-col md:flex-row justify-center items-center w-[90vw] p-6 bg-white mt-10 border-2 border-darkPurple opacity-75">
+          <div>
+            <img src={require('./../assets/process-website-sketch.jpg')} alt="design process website layout sketch" />
+          </div>
+          <div>
+            <img src={require('./../assets/process-outline.png')} alt="design process steps outlined" />
+          </div>
+        </div>
+      </div>
+      
 
     </div>
   </>);
