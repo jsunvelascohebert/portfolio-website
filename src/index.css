@@ -25,6 +25,9 @@
   p {
     @apply font-nunito font-normal text-sm text-black leading-7;
   }
+  li {
+    @apply font-nunito font-normal text-sm text-black leading-7;
+  }
   .base-container {
     @apply w-full flex flex-col justify-center items-center gap-10;
   }

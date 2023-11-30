@@ -1,5 +1,6 @@
 import React from 'react';
 import { Fade } from 'react-awesome-reveal';
+import EmpathyCenteredDesign from '../components/EmpathyCenteredDesign';
 
 export default function Process() {
   return (<>
@@ -37,6 +38,20 @@ export default function Process() {
         </div></Fade>
         </div></Fade>
       
+      <EmpathyCenteredDesign />
+
+
+
+
+
+
+
+
+
+
+
+
+      <div className="h-screen"></div>
 
 
 
