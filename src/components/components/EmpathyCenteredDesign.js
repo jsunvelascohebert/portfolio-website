@@ -3,20 +3,20 @@ import React from 'react';
 export default function EmpathyCenteredDesign() {
   return (<>
     {/* general container */}
-    <div className="base-container bg-lightPurple border-2 border-darkPurple pt-14 gap-20">
+    <div className="base-container pt-24 gap-20">
       {/* header */}
       <h2>design outline</h2>
       {/* text */}
       <h5 className='w-[75vw] md:w-[50vw]'>Design is a non-linear process of discussing, deciding, delegating, and doing supported by the constant act of empathizing</h5>
 
-      <div className="w-full flex flex-col justify-center items-center gap-0 border-t-2 border-darkPurple">
+      <div className="w-[90vw] md:w-[95vw] flex flex-col justify-center items-center gap-0 border-2 border-darkPurple">
 
       {/* empathy box */}
-      <div className="w-full flex flex-col md:flex-row justify-start md:justify-center items-start md:items-center border-2 border-darkPurple bg-purple gap-6 md:gap-24 p-5">
+      <div className="w-full flex flex-col md:flex-row justify-start md:justify-center items-start md:items-center border-2 border-darkPurple bg-purple gap-6 md:gap-24 p-10 hover:scale-105 hover:border-4 md:hover:w-[93vw] hover:z-10 transition-all">
         {/* header */}
-        <h3 className='p-3 md:p-12 md:pr-2'>empathize</h3>
+        <h3 className=''>empathize</h3>
         {/* content */}
-        <div className="flex flex-col justify-start items-start p-3 md:p-12 gap-6">
+        <div className="flex flex-col justify-start items-start gap-6">
           <p><span className='project-card-date'>Empathizing</span> is the foundational force of connection. Through it, we come together and share our stories, visions, and worldviews.</p>
           <ul className='list-disc list-outside space-y-3'>
             <li>
@@ -55,7 +55,7 @@ export default function EmpathyCenteredDesign() {
           {/* header */}
           <h3>discuss</h3>
           {/* content */}
-          <div className="flex flex-col justify-start items-start  gap-6">
+          <div className="flex flex-col justify-start items-start gap-6">
             <p><span className='project-card-date'>Discussing</span> is where we tell our stories. Using talking circles and relational idea generation, we maintain a safe space free from judgement, assumption, and disruptions.</p>
             <ul className='list-disc list-outside space-y-3'>
               <li>
@@ -137,7 +137,7 @@ export default function EmpathyCenteredDesign() {
                   <div className="process-question">“what emerging stories are resonating with you?”,</div>
                     <div className="process-question">"what is your vision?",</div>
                     <div className="process-question">"what resources, rules, and responsibilities do you need to make those visions come true?",</div>
-                    <div className="process-question">what are your goals, outcomes, needs, and deliverables?"</div>
+                    <div className="process-question">"what are your goals, outcomes, needs, and deliverables?"</div>
                 </div>
               </li>
               <li>
@@ -156,7 +156,39 @@ export default function EmpathyCenteredDesign() {
         <div className="design-process-d-container">
           {/* header */}
           <h3>do</h3>
+          {/* content */}
+          <div className="flex flex-col justify-start items-start  gap-6">
+            <p><span className='project-card-date'>Doing</span> allows people to pursue their responsibilities in whatever ways they've decided. Every individual and community is allowed full agency over their tasks, but are responsible for meeting expectations and allowed open access to the shared resource pool.</p>
+            <ul className='list-disc list-outside space-y-3'>
+              <li>
+              <div className='project-card-topic-container'>
+                  <div className="font-bold underline">Techniques/Approaches:</div>
+                    <div className="project-card-topic">regular feedback</div>
+                    <div className="project-card-topic">open flow of info</div>
+                    <div className="project-card-topic">flexible communication</div>
+                </div>
+              </li>
+              <li>
+                <div className="project-card-topic-container">
+                  <div className="font-bold underline">Guiding questions:</div>
+                  <div className="process-question">"what is your plan going forward?",</div>
+                    <div className="process-question">"what progress have you made?",</div>
+                    <div className="process-question">"what accomplishments/obstacles have you/are you running into?",</div>
+                    <div className="process-question">"what support do you need to celebrate/address these events?"</div>
+                </div>
+              </li>
+              <li>
+                <div className="project-card-topic-container">
+                  <div className="font-bold underline">Outcomes:</div>
+                    <div className="process-outcome-badge">Communication Channels,</div>
+                    <div className="process-outcome-badge">Feedback Cycles,</div>
+                    <div className="process-outcome-badge">Product Development</div>
+                </div>
+              </li>
+            </ul>
+          </div>
         </div>
+          
       </div>
 
       </div>
