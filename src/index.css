@@ -125,7 +125,11 @@
   }
   /* empathy centered designer styles */
   .design-process-d-container {
-    @apply flex flex-col justify-center items-start gap-5 w-full md:basis-1/2 border-2 bg-lightPurple border-darkPurple p-10 hover:scale-105 hover:border-4 transition-all hover:z-10;
+    @apply flex flex-col justify-center items-start gap-5 w-full md:basis-1/2 border-2 bg-lightPurple border-darkPurple p-10;
+  }
+  .design-process-value-container {
+    @apply flex flex-col justify-start items-start gap-5
+    sm:basis-1/2 xl:basis-1/4 border-2 bg-purple border-darkPurple p-4 md:p-10;
   }
 }
 

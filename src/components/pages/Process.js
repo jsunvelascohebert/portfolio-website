@@ -1,6 +1,7 @@
 import React from 'react';
 import { Fade } from 'react-awesome-reveal';
 import EmpathyCenteredDesign from '../components/EmpathyCenteredDesign';
+import SupportiveValues from '../components/SupportiveValues';
 
 export default function Process() {
   return (<>
@@ -12,7 +13,7 @@ export default function Process() {
           <div className="w-full flex flex-col justify-center items-center gap-10">
             <h1>design process</h1>
             <p className="project-card-topic scale-120 md:scale-150">
-              design with empathy and equity</p>
+              decolonizing design with empathy</p>
           </div>  
         </Fade>
       </div>
@@ -26,54 +27,18 @@ export default function Process() {
       <div className="w-[85vw] flex flex-col md:flex-row justify-center items-start gap-10">
         
         {/* design def quote */}<Fade className='w-full md:w-1/2'>
-        <h3 className='text-left md:text-right w-full'><span className='opacity-40'>Design is a dynamic, non-linear process that involves </span>discussing, deciding, delegating, and doing, <span className='opacity-40'>all underpinned by the continual act of </span>empathizing<span className='opacity-40'>. This iterative cycle is enveloped in a protective and evolving layer of </span>diversity, inclusivity, equity, and self-determination<span className='opacity-40'>, values that form the bedrock of my approach to design.</span></h3></Fade>
+        <h3 className='text-left md:text-right w-full'><span className='opacity-40'>Design is a dynamic, non-linear process that involves </span>discussing, deciding, delegating, and doing <span className='opacity-40'>all underpinned by the continual act of </span>empathizing<span className='opacity-40'>. This iterative cycle is enveloped in a protective and evolving layer of </span>reciprocity, relationality, responsibility, and wholism<span className='opacity-40'>, values that form the bedrock of my approach to design.</span></h3></Fade>
         
         {/* remaining definition */}<Fade className='w-full md:w-1/2'>
         <div className='flex flex-col justify-start items-start w-full gap-5'>
           <Fade><p><span className='project-card-date'>Empathizing</span><span className='opacity-50'> serves as the foundational force for connection, where individuals come together to share their stories, visions, and interventions. Techniques such as </span><span className='project-card-topic'>talking circles</span><span className='opacity-50'>,</span> <span className='project-card-topic'>diverse forms of interaction</span><span className='opacity-50'>, and the early establishment of </span><span className='project-card-topic'>community guidelines</span><span className='opacity-50'> facilitate this empathic exchange. Key guiding questions include, </span><span className='process-question'>tell us about yourself?</span><span className='opacity-50'> and </span><span className='process-question'>what does empathy look and feel like to you?</span><span className='opacity-50'> The outcomes of this stage include the development of an </span><span className='process-outcome-badge'>Empathy Tree</span><span className='opacity-50'>, result from a branching workshop for growing a shared idea of empathy, and a refined </span><span className='process-outcome-badge'>Community Guidelines List</span><span className='opacity-50'> that encapsulates the rules and responsibilities emerging from the tree.</span></p></Fade>
           
-          <Fade><p><span className='opacity-50'>In the subsequent stages of </span><span className='project-card-date'>discussing</span><span className='opacity-50'>, </span><span className='project-card-date'>deciding</span><span className='opacity-50'>, </span><span className='project-card-date'>delegating</span><span className='opacity-50'>, and </span><span className='project-card-date'>doing</span><span className='opacity-50'>, we employ specific techniques and approaches such as </span><span className='project-card-topic'>talking circles</span><span className='opacity-50'>, </span><span className='project-card-topic'>sticky note stories</span><span className='opacity-50'>, analog and digital </span><span className='project-card-topic'>mapping</span><span className='opacity-50'>, and regular </span><span className='project-card-topic'>feedback cycles</span><span className='opacity-50'>. Each stage is guided by questions aimed at fostering </span><span className='process-question'>collaboration, understanding, and progress</span><span className='opacity-50'>. The ultimate goal is to allow individuals and communities </span><span className='process-outcome-badge'>full agency</span><span className='opacity-50'> over their tasks while maintaining a </span><span className='process-outcome-badge'>shared resource pool</span><span className='opacity-50'> and upholding the values of </span><span className='project-card-date'>diversity</span><span className='opacity-50'>, </span><span className='project-card-date'>equity</span><span className='opacity-50'>, </span><span className='project-card-date'>inclusion</span><span className="opacity-50">, and </span><span className="project-card-date">self-determination</span><span className="opacity-50">.</span></p></Fade>
-            
-          <Fade><p className='opacity-50'>This continuous cycle of design is sustained by the constant upkeep of these core values, ensuring that empathy remains at the forefront, and the process unfolds smoothly.</p></Fade>
+          <Fade><p><span className='opacity-50'>In the subsequent stages of </span><span className='project-card-date'>discussing</span><span className='opacity-50'>, </span><span className='project-card-date'>deciding</span><span className='opacity-50'>, </span><span className='project-card-date'>delegating</span><span className='opacity-50'>, and </span><span className='project-card-date'>doing</span><span className='opacity-50'>, we employ specific techniques and approaches such as </span><span className='project-card-topic'>talking circles</span><span className='opacity-50'>, </span><span className='project-card-topic'>sticky note stories</span><span className='opacity-50'>, analog and digital </span><span className='project-card-topic'>mapping</span><span className='opacity-50'>, and regular </span><span className='project-card-topic'>feedback cycles</span><span className='opacity-50'>. Each stage is guided by questions aimed at fostering </span><span className='process-question'>collaboration, understanding, and progress</span><span className='opacity-50'>. The ultimate goal is to allow individuals and communities </span><span className='process-outcome-badge'>full agency</span><span className='opacity-50'> over their tasks while maintaining a </span><span className='process-outcome-badge'>shared resource pool</span><span className='opacity-50'> and upholding the Indigenous values of </span><span className='project-card-date'>reciprocity</span><span className='opacity-50'>, </span><span className='project-card-date'>relationality</span><span className='opacity-50'>, </span><span className='project-card-date'>responsibility</span><span className="opacity-50">, and </span><span className="project-card-date">wholism</span><span className="opacity-50">.</span></p></Fade>
         </div></Fade>
         </div></Fade>
       
-      <EmpathyCenteredDesign />
-
-
-
-
-
-
-
-
-
-
-
-
-      <div className="h-screen"></div>
-
-
-
-      {/* TEMP -- PROCESS PAGE NEW FEATURES */}
-      <div className="flex flex-col w-full bg-lightPurple border-2 border-darkPurple py-10 justify-center items-center">
-        {/* heading text */}
-        <div className='flex flex-col justify-center items-center max-w-[90vw] md:max-w-[50vw] gap-10'>
-          <h3>upcoming page updates</h3>
-          <p>In alignment with the visuals created in the written excerpt above, the next updates of this website will better outline the ideas into a list format and supply external links to examples where necessary. In particular, the techniques and outcomes of each design phase will be linked to show tangible approaches to them. The below image placeholders are supplied for transparency.</p>
-        </div>
-
-        {/* images */}
-        <div className="flex flex-col md:flex-row justify-center items-center w-[90vw] p-6 bg-white mt-10 border-2 border-darkPurple opacity-75">
-          <div>
-            <img src={require('./../assets/process-website-sketch.jpg')} alt="design process website layout sketch" />
-          </div>
-          <div>
-            <img src={require('./../assets/process-outline.png')} alt="design process steps outlined" />
-          </div>
-        </div>
-      </div>
-      
+      <Fade><EmpathyCenteredDesign /></Fade>
+      <Fade><SupportiveValues /></Fade>
 
     </div>
   </>);

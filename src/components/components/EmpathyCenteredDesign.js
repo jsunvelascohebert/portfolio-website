@@ -12,11 +12,11 @@ export default function EmpathyCenteredDesign() {
       <div className="w-[90vw] md:w-[95vw] flex flex-col justify-center items-center gap-0 border-2 border-darkPurple">
 
       {/* empathy box */}
-      <div className="w-full flex flex-col md:flex-row justify-start md:justify-center items-start md:items-center border-2 border-darkPurple bg-purple gap-6 md:gap-24 p-10 hover:scale-105 hover:border-4 md:hover:w-[93vw] hover:z-10 transition-all">
+      <div className="w-full flex flex-col md:flex-row justify-start md:justify-center items-start md:items-center border-2 border-darkPurple bg-purple gap-6 md:gap-24 p-10">
         {/* header */}
         <h3 className=''>empathize</h3>
         {/* content */}
-        <div className="flex flex-col justify-start items-start gap-6">
+        <div className="flex flex-col justify-start items-start gap-6 leading-3">
           <p><span className='project-card-date'>Empathizing</span> is the foundational force of connection. Through it, we come together and share our stories, visions, and worldviews.</p>
           <ul className='list-disc list-outside space-y-3'>
             <li>
