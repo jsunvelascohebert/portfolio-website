@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-website/static/css/main.88398bbe.css",
-    "main.js": "/portfolio-website/static/js/main.0e63e0a5.js",
+    "main.css": "/portfolio-website/static/css/main.19951e85.css",
+    "main.js": "/portfolio-website/static/js/main.688486d3.js",
     "static/js/787.861fdc3f.chunk.js": "/portfolio-website/static/js/787.861fdc3f.chunk.js",
     "static/media/aaad-card-thumbnail.png": "/portfolio-website/static/media/aaad-card-thumbnail.0ad666fae3987fe7848a.png",
     "static/media/maharam-card-thumbnail.png": "/portfolio-website/static/media/maharam-card-thumbnail.ad11250a64f99c0daf2a.png",
@@ -10,14 +10,13 @@
     "static/media/glyphs-card-thumbnail.png": "/portfolio-website/static/media/glyphs-card-thumbnail.e32af02efda4eee3c009.png",
     "static/media/fanimalies-card-thumbnail.png": "/portfolio-website/static/media/fanimalies-card-thumbnail.18dcc64303cd8cf30ef7.png",
     "static/media/medipin-topic.png": "/portfolio-website/static/media/medipin-topic.4a05284cf12003cf2e0d.png",
+    "static/media/process-diagram.png": "/portfolio-website/static/media/process-diagram.2e08c2167e3664f6e35f.png",
     "static/media/medipin-search.png": "/portfolio-website/static/media/medipin-search.8b848096bb543681110e.png",
     "static/media/medipin-notes.png": "/portfolio-website/static/media/medipin-notes.74178540b5feb2448697.png",
     "static/media/medipin-thumbnail.png": "/portfolio-website/static/media/medipin-thumbnail.705c1162292076cd9915.png",
-    "static/media/process-diagram.png": "/portfolio-website/static/media/process-diagram.d335d6b7a452bcee39c9.png",
     "static/media/covid-card-thumbnail.png": "/portfolio-website/static/media/covid-card-thumbnail.7683336bcbe1b5b884e3.png",
     "static/media/medipin-empathize-thumbnail.png": "/portfolio-website/static/media/medipin-empathize-thumbnail.4a64f0fccb27e27fb229.png",
     "static/media/teaching-card-thumbnail.png": "/portfolio-website/static/media/teaching-card-thumbnail.ee88c8f75ba9d019bf7a.png",
-    "static/media/process-outline.png": "/portfolio-website/static/media/process-outline.363f6e2ba54647191f68.png",
     "static/media/medipin-card-thumbnail.png": "/portfolio-website/static/media/medipin-card-thumbnail.57df0ff4b54b8bced309.png",
     "static/media/dcd-card-thumbnail.png": "/portfolio-website/static/media/dcd-card-thumbnail.5f2fc09e01f20d4a5983.png",
     "static/media/medipin-prototype-thumbnail.png": "/portfolio-website/static/media/medipin-prototype-thumbnail.7e9c66b38c85be0aa8ab.png",
@@ -26,17 +25,16 @@
     "static/media/tree-card-thumbnail.png": "/portfolio-website/static/media/tree-card-thumbnail.7db6d780c0ca6c12ebae.png",
     "static/media/medipin-ideate-thumbnail.png": "/portfolio-website/static/media/medipin-ideate-thumbnail.4da54d293bf0d2a5db74.png",
     "static/media/medipin-define-thumbnail.png": "/portfolio-website/static/media/medipin-define-thumbnail.b80a2db6c748229859cb.png",
-    "static/media/process-website-sketch.jpg": "/portfolio-website/static/media/process-website-sketch.22be0109db0deb5e2ae9.jpg",
     "static/media/hero-logo_1.png": "/portfolio-website/static/media/hero-logo_1.1b1b2c5e15e4d644b330.png",
     "static/media/medipin-deploy-thumbnail.png": "/portfolio-website/static/media/medipin-deploy-thumbnail.c6f41c5753b1d2716786.png",
     "static/media/risd-logo.png": "/portfolio-website/static/media/risd-logo.e7e0809ff8a3b2b81e5c.png",
     "index.html": "/portfolio-website/index.html",
-    "main.88398bbe.css.map": "/portfolio-website/static/css/main.88398bbe.css.map",
-    "main.0e63e0a5.js.map": "/portfolio-website/static/js/main.0e63e0a5.js.map",
+    "main.19951e85.css.map": "/portfolio-website/static/css/main.19951e85.css.map",
+    "main.688486d3.js.map": "/portfolio-website/static/js/main.688486d3.js.map",
     "787.861fdc3f.chunk.js.map": "/portfolio-website/static/js/787.861fdc3f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.88398bbe.css",
-    "static/js/main.0e63e0a5.js"
+    "static/css/main.19951e85.css",
+    "static/js/main.688486d3.js"
   ]
 }
