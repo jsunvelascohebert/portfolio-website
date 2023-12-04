@@ -128,8 +128,8 @@ export default function EmpathyCenteredDesign() {
               <li>
               <div className='project-card-topic-container'>
                   <div className="font-bold underline">Techniques/Approaches:</div>
-                    <div className="project-card-topic">story perspectives</div>
-                    <div className="project-card-topic">project outlines</div>
+                    <Link to='https://drive.google.com/drive/folders/1Q8ZklQ0dsm0Cn0-VR5tpZ9Yb7gu9DLKd?usp=sharing' target='_blank' className="light-badge-link">story perspectives</Link>
+                    <Link to='https://drive.google.com/file/d/1uIvKgZMhg4qldm3qiVHyb8XPlEjKwxNW/view?usp=sharing' target='_blank' className="light-badge-link">project outlines</Link>
                 </div>
               </li>
               <li>
@@ -144,8 +144,8 @@ export default function EmpathyCenteredDesign() {
               <li>
                 <div className="project-card-topic-container">
                   <div className="font-bold underline">Outcomes:</div>
-                    <div className="process-outcome-badge">Story Perspectives,</div>
-                    <div className="process-outcome-badge">Project Proposals</div>
+                    <Link to='https://drive.google.com/drive/folders/1Q8ZklQ0dsm0Cn0-VR5tpZ9Yb7gu9DLKd?usp=sharing' target='_blank' className="process-outcome-badge-link">Story Perspectives,</Link>
+                    <Link to='https://drive.google.com/file/d/1uIvKgZMhg4qldm3qiVHyb8XPlEjKwxNW/view?usp=sharing' target='_blank' className="process-outcome-badge-link">Project Proposals</Link>
                 </div>
               </li>
             </ul>
