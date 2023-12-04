@@ -96,7 +96,7 @@ export default function EmpathyCenteredDesign() {
               <li>
               <div className='project-card-topic-container'>
                   <div className="font-bold underline">Techniques/Approaches:</div>
-                  <div className="project-card-topic">mapping workshops</div>
+                  <Link to='https://drive.google.com/drive/folders/15LzecbJbYNvfrl1rnuuE_KMSyfMZ_lby?usp=sharing' target='_blank' className="light-badge-link">mapping workshops</Link>
                 </div>
               </li>
               <li>
@@ -109,7 +109,7 @@ export default function EmpathyCenteredDesign() {
               <li>
                 <div className="project-card-topic-container">
                   <div className="font-bold underline">Outcomes:</div>
-                  <div className="process-outcome-badge">Web of Stories</div>
+                  <Link to='https://drive.google.com/drive/folders/1ZhgmF5IF15HO_jo9poefsgENUrfT4fQJ?usp=sharing' target='_blank' className="process-outcome-badge-link">Web of Stories</Link>
                 </div>
               </li>
             </ul>
