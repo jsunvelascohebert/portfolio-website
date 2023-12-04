@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function SupportiveValues() {
   return (<>
@@ -30,11 +31,11 @@ export default function SupportiveValues() {
             <p>recognizing and upholding the roles and rules within the gathering spaces to ensure both individual and collective needs are being met</p>
           </div>
 
-          <div className="design-process-value-container">
+          <Link to='https://www.learnalberta.ca/content/aswt/indigenous_pedagogy/documents/aboriginal_pedagogy.pdf' target='_blank' className="design-process-value-container-link">
             <h3 className='text-left'>wholism</h3>
             {/* content */}
             <p>working towards the development of the wholistic form of every participant -- fostering growth within their heart, mind, body, and spirit</p>
-          </div>
+          </Link>
         </div>
       </div>
     </div>

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function EmpathyCenteredDesign() {
   return (<>
@@ -22,9 +23,9 @@ export default function EmpathyCenteredDesign() {
             <li>
             <div className='project-card-topic-container'>
                 <div className="font-bold underline">Techniques/Approaches:</div>
-                <div className="project-card-topic">talking circles</div>
-                <div className="project-card-topic">diverse forms of interaction</div>
-                <div className="project-card-topic">community guidelines</div>
+                <Link to='https://firstnationspedagogy.ca/circletalks.html' target='_blank' className="light-badge-link hover:ring-darkPurple">talking circles</Link>
+                <p className="project-card-topic">diverse forms of interaction</p>
+                <Link to='https://tll.mit.edu/teaching-resources/inclusive-classroom/discussion-guidelines/' target='_blank' className="light-badge-link hover:ring-darkPurple">community guidelines</Link>
               </div>
             </li>
             <li>
@@ -38,8 +39,8 @@ export default function EmpathyCenteredDesign() {
             <li>
               <div className="project-card-topic-container">
                 <div className="font-bold underline">Outcomes:</div>
-                <div className="process-outcome-badge">Empathy Tree,</div>
-                <div className="process-outcome-badge">Community Guidelines List</div>
+                <Link to='https://drive.google.com/drive/folders/1mv3lkCBixtSYH60YU7-osvDCocLweAjh?usp=sharing' target='_blank' className="process-outcome-badge-link">Empathy Tree,</Link>
+                <Link to='https://tll.mit.edu/teaching-resources/inclusive-classroom/discussion-guidelines/' target='_blank' className="process-outcome-badge-link">Community Guidelines List</Link>
               </div>
             </li>
           </ul>
@@ -61,7 +62,7 @@ export default function EmpathyCenteredDesign() {
               <li>
               <div className='project-card-topic-container'>
                   <div className="font-bold underline">Techniques/Approaches:</div>
-                  <div className="project-card-topic">talking circles</div>
+                  <Link to='https://firstnationspedagogy.ca/circletalks.html' target='_blank' className="light-badge-link">talking circles</Link>
                   <div className="project-card-topic">sticky note stories</div>
                   <div className="project-card-topic">refer to guidelines</div>
                 </div>
@@ -77,7 +78,7 @@ export default function EmpathyCenteredDesign() {
               <li>
                 <div className="project-card-topic-container">
                   <div className="font-bold underline">Outcomes:</div>
-                  <div className="process-outcome-badge">Collection of Stories</div>
+                  <Link to='https://drive.google.com/drive/folders/1nNvtef1KNQ3Gk3UWDdPvvpW-axtj5p0N?usp=sharing' target='_blank' className="process-outcome-badge-link">Collection of Stories</Link>
                 </div>
               </li>
             </ul>
