@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-website/static/css/main.19951e85.css",
-    "main.js": "/portfolio-website/static/js/main.688486d3.js",
+    "main.css": "/portfolio-website/static/css/main.a963a22f.css",
+    "main.js": "/portfolio-website/static/js/main.90b24eb0.js",
     "static/js/787.861fdc3f.chunk.js": "/portfolio-website/static/js/787.861fdc3f.chunk.js",
     "static/media/aaad-card-thumbnail.png": "/portfolio-website/static/media/aaad-card-thumbnail.0ad666fae3987fe7848a.png",
     "static/media/maharam-card-thumbnail.png": "/portfolio-website/static/media/maharam-card-thumbnail.ad11250a64f99c0daf2a.png",
@@ -29,12 +29,12 @@
     "static/media/medipin-deploy-thumbnail.png": "/portfolio-website/static/media/medipin-deploy-thumbnail.c6f41c5753b1d2716786.png",
     "static/media/risd-logo.png": "/portfolio-website/static/media/risd-logo.e7e0809ff8a3b2b81e5c.png",
     "index.html": "/portfolio-website/index.html",
-    "main.19951e85.css.map": "/portfolio-website/static/css/main.19951e85.css.map",
-    "main.688486d3.js.map": "/portfolio-website/static/js/main.688486d3.js.map",
+    "main.a963a22f.css.map": "/portfolio-website/static/css/main.a963a22f.css.map",
+    "main.90b24eb0.js.map": "/portfolio-website/static/js/main.90b24eb0.js.map",
     "787.861fdc3f.chunk.js.map": "/portfolio-website/static/js/787.861fdc3f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.19951e85.css",
-    "static/js/main.688486d3.js"
+    "static/css/main.a963a22f.css",
+    "static/js/main.90b24eb0.js"
   ]
 }
