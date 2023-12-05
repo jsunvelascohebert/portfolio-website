@@ -1,4 +1,5 @@
 import React from 'react';
+import { Fade } from 'react-awesome-reveal';
 import { Link } from 'react-router-dom';
 
 export default function EmpathyCenteredDesign() {
@@ -6,14 +7,14 @@ export default function EmpathyCenteredDesign() {
     {/* general container */}
     <div className="base-container pt-24 gap-20">
       {/* header */}
-      <h2>design outline</h2>
+      <Fade><h2>design outline</h2></Fade>
       {/* text */}
-      <h5 className='w-[75vw] md:w-[50vw]'>Design is a non-linear process of discussing, deciding, delegating, and doing supported by the constant act of empathizing</h5>
+      <Fade><h5 className='w-[75vw] md:w-[50vw]'>Design is a non-linear process of discussing, deciding, delegating, and doing supported by the constant act of empathizing</h5></Fade>
 
-      <div className="w-[90vw] md:w-[95vw] flex flex-col justify-center items-center gap-0 border-2 border-darkPurple">
+      <div className="w-[90vw] md:w-[95vw] flex flex-col justify-center items-center gap-0 border-2 border-darkPurple"><Fade className='w-full'>
 
       {/* empathy box */}
-      <div className="w-full flex flex-col md:flex-row justify-start md:justify-center items-start md:items-center border-2 border-darkPurple bg-purple gap-6 md:gap-24 p-8 md:p-10">
+      <div className="w-full flex flex-col md:flex-row justify-start md:justify-center items-start md:items-center border-2 border-darkPurple bg-purple gap-6 md:gap-24 p-8 md:p-10"><Fade>
         {/* header */}
         <h3 className=''>empathize</h3>
         {/* content */}
@@ -45,14 +46,13 @@ export default function EmpathyCenteredDesign() {
             </li>
           </ul>
         </div>
-
-      </div>
+      </Fade></div>
 
       {/* 4 d's flex-wrap (4x1) (2x2) (1x4) */}
       <div className="w-full flex flex-wrap">
           
         {/* discuss */}
-        <div className="design-process-d-container">
+        <div className="design-process-d-container"><Fade>
           {/* header */}
           <h3>discuss</h3>
           {/* content */}
@@ -83,10 +83,10 @@ export default function EmpathyCenteredDesign() {
               </li>
             </ul>
           </div>
-        </div>
+        </Fade></div>
 
         {/* decide */}
-        <div className="design-process-d-container">
+        <div className="design-process-d-container"><Fade>
           {/* header */}
           <h3>decide</h3>
           {/* content */}
@@ -114,11 +114,11 @@ export default function EmpathyCenteredDesign() {
               </li>
             </ul>
           </div>
-        </div>
+        </Fade></div>
 
 
         {/* delegate */}
-        <div className="design-process-d-container">
+        <div className="design-process-d-container"><Fade>
           {/* header */}
           <h3>delegate</h3>
           {/* content */}
@@ -150,11 +150,11 @@ export default function EmpathyCenteredDesign() {
               </li>
             </ul>
           </div>
-        </div>
+        </Fade></div>
 
 
         {/* do */}
-        <div className="design-process-d-container">
+        <div className="design-process-d-container"><Fade>
           {/* header */}
           <h3>do</h3>
           {/* content */}
@@ -188,11 +188,11 @@ export default function EmpathyCenteredDesign() {
               </li>
             </ul>
           </div>
-        </div>
+        </Fade></div>
           
       </div>
 
-      </div>
+      </Fade></div>
     </div>
   
   </>);
