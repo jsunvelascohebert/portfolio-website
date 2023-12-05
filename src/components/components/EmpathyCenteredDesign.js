@@ -13,7 +13,7 @@ export default function EmpathyCenteredDesign() {
       <div className="w-[90vw] md:w-[95vw] flex flex-col justify-center items-center gap-0 border-2 border-darkPurple">
 
       {/* empathy box */}
-      <div className="w-full flex flex-col md:flex-row justify-start md:justify-center items-start md:items-center border-2 border-darkPurple bg-purple gap-6 md:gap-24 p-10">
+      <div className="w-full flex flex-col md:flex-row justify-start md:justify-center items-start md:items-center border-2 border-darkPurple bg-purple gap-6 md:gap-24 p-8 md:p-10">
         {/* header */}
         <h3 className=''>empathize</h3>
         {/* content */}
@@ -63,8 +63,8 @@ export default function EmpathyCenteredDesign() {
               <div className='project-card-topic-container'>
                   <div className="font-bold underline">Techniques/Approaches:</div>
                   <Link to='https://firstnationspedagogy.ca/circletalks.html' target='_blank' className="light-badge-link">talking circles</Link>
-                  <div className="project-card-topic">sticky note stories</div>
-                  <div className="project-card-topic">refer to guidelines</div>
+                  <Link to='https://drive.google.com/drive/folders/11t2aln1QpGH15BXq3HWzuj23OUk6PwIy?usp=sharing' target='_blank' className="light-badge-link">framing stories</Link>
+                  <Link to='https://tll.mit.edu/teaching-resources/inclusive-classroom/discussion-guidelines/' target='_blank' className="light-badge-link">refer to guidelines</Link>
                 </div>
               </li>
               <li>
@@ -164,7 +164,7 @@ export default function EmpathyCenteredDesign() {
               <li>
               <div className='project-card-topic-container'>
                   <div className="font-bold underline">Techniques/Approaches:</div>
-                    <div className="project-card-topic">regular feedback</div>
+                    <Link to='https://drive.google.com/file/d/1qwr8SgeT8ATY6fc25wvQe1jFWXDZM9rT/view?usp=sharing' target='_blank' className="light-badge-link">regular feedback</Link>
                     <div className="project-card-topic">open flow of info</div>
                     <div className="project-card-topic">flexible communication</div>
                 </div>
@@ -182,7 +182,7 @@ export default function EmpathyCenteredDesign() {
                 <div className="project-card-topic-container">
                   <div className="font-bold underline">Outcomes:</div>
                     <div className="process-outcome-badge">Communication Channels,</div>
-                    <div className="process-outcome-badge">Feedback Cycles,</div>
+                    <Link to='https://drive.google.com/file/d/1qwr8SgeT8ATY6fc25wvQe1jFWXDZM9rT/view?usp=sharing' target='_blank' className="process-outcome-badge-link">Feedback Cycles,</Link>
                     <div className="process-outcome-badge">Product Development</div>
                 </div>
               </li>

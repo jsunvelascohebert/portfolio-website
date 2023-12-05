@@ -13,23 +13,23 @@ export default function SupportiveValues() {
 
         {/* values */}
         <div className="w-full flex flex-wrap">
-          <div className="design-process-value-container">
+          <Link to='https://drive.google.com/file/d/1Bs-tYfFOn8ZgqiG8Hp51cCKTpuLW4LbP/view?usp=sharing' target='_blank' className="design-process-value-container-link">
             <h3 className='text-left'>reciprocity</h3>
             {/* content */}
             <p>ensuring the equitable and accessible engagement of diverse peoples within the space in ways that promote mutual trust, sharing, and equal gift-giving</p>
-          </div>
+          </Link>
 
-          <div className="design-process-value-container">
+          <Link to="https://drive.google.com/file/d/1Bs-tYfFOn8ZgqiG8Hp51cCKTpuLW4LbP/view?usp=sharing" target='_blank' className="design-process-value-container-link">
             <h3 className='text-left'>relationality</h3>
             {/* content */}
             <p>understanding the diverse range of contexts, cultures, and communities that make up the multiple ecologies within and around the gathering spaces</p>
-          </div>
+          </Link>
 
-          <div className="design-process-value-container">
+          <Link to='https://drive.google.com/file/d/1Bs-tYfFOn8ZgqiG8Hp51cCKTpuLW4LbP/view?usp=sharing' target='_blank' className="design-process-value-container-link">
             <h3 className='text-left'>responsibility</h3>
             {/* content */}
             <p>recognizing and upholding the roles and rules within the gathering spaces to ensure both individual and collective needs are being met</p>
-          </div>
+          </Link>
 
           <Link to='https://www.learnalberta.ca/content/aswt/indigenous_pedagogy/documents/aboriginal_pedagogy.pdf' target='_blank' className="design-process-value-container-link">
             <h3 className='text-left'>wholism</h3>

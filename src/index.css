@@ -118,17 +118,17 @@
 
   /* process question frames */
   .process-question {
-    @apply underline font-bold text-darkPurple underline-offset-4 hover:cursor-crosshair;
-  }
-  .process-outcome-badge {
     @apply italic font-bold text-darkPurple hover:cursor-crosshair;
   }
+  .process-outcome-badge {
+    @apply font-bold text-darkPurple underline-offset-4 hover:cursor-crosshair;
+  }
   .process-outcome-badge-link {
-    @apply italic font-bold text-darkPurple hover:underline hover:cursor-pointer text-sm;
+    @apply underline font-bold text-darkPurple underline-offset-4 hover:cursor-pointer text-sm hover:ring-2 hover:ring-darkPurple rounded-md px-1 hover:no-underline transition-all;
   }
   /* empathy centered designer styles */
   .design-process-d-container {
-    @apply flex flex-col justify-center items-start gap-5 w-full md:basis-1/2 border-2 bg-lightPurple border-darkPurple p-10;
+    @apply flex flex-col justify-center items-start gap-5 w-full md:basis-1/2 border-2 bg-lightPurple border-darkPurple p-8 md:p-10;
   }
   .design-process-value-container {
     @apply flex flex-col justify-start items-start gap-5
@@ -136,10 +136,10 @@
   }
   .design-process-value-container-link {
     @apply flex flex-col justify-start items-start gap-5
-    sm:basis-1/2 xl:basis-1/4 border-2 bg-purple border-darkPurple p-4 md:p-10 hover:cursor-pointer hover:z-10 hover:scale-105 hover:border-4 hover:ring-4 hover:ring-lightPurple;
+    sm:basis-1/2 xl:basis-1/4 border-2 bg-purple border-darkPurple p-4 md:p-10 hover:cursor-pointer hover:z-10 hover:scale-105 hover:border-4 hover:ring-4 hover:ring-lightPurple transition-all;
   }
   .light-badge-link {
-    @apply text-sm font-medium bg-white text-darkPurple px-2 rounded-full border border-darkPurple hover:cursor-pointer hover:ring-2 hover:ring-darkPurple;
+    @apply text-sm font-medium bg-white text-darkPurple px-2 rounded-full border border-darkPurple hover:cursor-pointer hover:ring-2 hover:ring-darkPurple transition-all;
   }
 }
 
