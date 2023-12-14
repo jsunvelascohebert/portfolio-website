@@ -142,7 +142,8 @@
     @apply text-sm font-medium bg-white text-darkPurple px-2 rounded-full border border-darkPurple hover:cursor-pointer hover:ring-2 hover:ring-darkPurple transition-all;
   }
   .about-value-item {
-    @apply flex flex-col justify-start items-start md:w-1/4 p-6 gap-4;
+    @apply flex flex-col justify-start items-start w-full sm:w-1/2 
+    xl:w-1/4 p-10 gap-4 bg-lightPurple border-2 border-darkPurple;
   }
 }
 

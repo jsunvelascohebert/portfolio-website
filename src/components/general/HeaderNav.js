@@ -18,8 +18,8 @@ export default function HeaderNav() {
       </Link>
       {/* menu items */}
       <div className="flex flex-row gap-10 justify-center items-center">
-        <Link to="/about" className='menu-item'>about</Link>
         <Link to="" className='menu-item-disabled'>cv</Link>
+        <Link to="/about" className='menu-item'>about</Link>
         <Link to="/process" className='menu-item'>process</Link>
         <Link to="/projects" className='menu-item'>projects</Link>
       </div>
