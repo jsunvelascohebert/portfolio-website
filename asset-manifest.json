@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-website/static/css/main.a963a22f.css",
-    "main.js": "/portfolio-website/static/js/main.90b24eb0.js",
+    "main.css": "/portfolio-website/static/css/main.cd85158f.css",
+    "main.js": "/portfolio-website/static/js/main.fe77362c.js",
     "static/js/787.861fdc3f.chunk.js": "/portfolio-website/static/js/787.861fdc3f.chunk.js",
     "static/media/aaad-card-thumbnail.png": "/portfolio-website/static/media/aaad-card-thumbnail.0ad666fae3987fe7848a.png",
     "static/media/maharam-card-thumbnail.png": "/portfolio-website/static/media/maharam-card-thumbnail.ad11250a64f99c0daf2a.png",
@@ -9,6 +9,7 @@
     "static/media/weaste-card-thumbnail.png": "/portfolio-website/static/media/weaste-card-thumbnail.941847d05bdd6c62c65e.png",
     "static/media/glyphs-card-thumbnail.png": "/portfolio-website/static/media/glyphs-card-thumbnail.e32af02efda4eee3c009.png",
     "static/media/fanimalies-card-thumbnail.png": "/portfolio-website/static/media/fanimalies-card-thumbnail.18dcc64303cd8cf30ef7.png",
+    "static/media/jvh_headshot.png": "/portfolio-website/static/media/jvh_headshot.3c25193941f393c5d68b.png",
     "static/media/medipin-topic.png": "/portfolio-website/static/media/medipin-topic.4a05284cf12003cf2e0d.png",
     "static/media/process-diagram.png": "/portfolio-website/static/media/process-diagram.2e08c2167e3664f6e35f.png",
     "static/media/medipin-search.png": "/portfolio-website/static/media/medipin-search.8b848096bb543681110e.png",
@@ -29,12 +30,12 @@
     "static/media/medipin-deploy-thumbnail.png": "/portfolio-website/static/media/medipin-deploy-thumbnail.c6f41c5753b1d2716786.png",
     "static/media/risd-logo.png": "/portfolio-website/static/media/risd-logo.e7e0809ff8a3b2b81e5c.png",
     "index.html": "/portfolio-website/index.html",
-    "main.a963a22f.css.map": "/portfolio-website/static/css/main.a963a22f.css.map",
-    "main.90b24eb0.js.map": "/portfolio-website/static/js/main.90b24eb0.js.map",
+    "main.cd85158f.css.map": "/portfolio-website/static/css/main.cd85158f.css.map",
+    "main.fe77362c.js.map": "/portfolio-website/static/js/main.fe77362c.js.map",
     "787.861fdc3f.chunk.js.map": "/portfolio-website/static/js/787.861fdc3f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a963a22f.css",
-    "static/js/main.90b24eb0.js"
+    "static/css/main.cd85158f.css",
+    "static/js/main.fe77362c.js"
   ]
 }
