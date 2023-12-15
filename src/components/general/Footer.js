@@ -60,8 +60,8 @@ export default function Footer() {
 
       {/* links */}
       <div className="flex flex-col justify-center items-center gap-2">
-        <Link to="" className='menu-item-disabled'>about</Link>
         <Link to="" className='menu-item-disabled'>cv</Link>
+        <Link to="/about" className='menu-item-disabled'>about</Link>
         <Link to="/process" className='menu-item'>process</Link>
         <Link to="/projects" className='menu-item'>projects</Link>
       </div>
