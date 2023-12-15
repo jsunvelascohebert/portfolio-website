@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-website/static/css/main.cd85158f.css",
-    "main.js": "/portfolio-website/static/js/main.0cde01a6.js",
+    "main.js": "/portfolio-website/static/js/main.fec559a8.js",
     "static/js/787.861fdc3f.chunk.js": "/portfolio-website/static/js/787.861fdc3f.chunk.js",
     "static/media/aaad-card-thumbnail.png": "/portfolio-website/static/media/aaad-card-thumbnail.0ad666fae3987fe7848a.png",
     "static/media/maharam-card-thumbnail.png": "/portfolio-website/static/media/maharam-card-thumbnail.ad11250a64f99c0daf2a.png",
@@ -31,11 +31,11 @@
     "static/media/risd-logo.png": "/portfolio-website/static/media/risd-logo.e7e0809ff8a3b2b81e5c.png",
     "index.html": "/portfolio-website/index.html",
     "main.cd85158f.css.map": "/portfolio-website/static/css/main.cd85158f.css.map",
-    "main.0cde01a6.js.map": "/portfolio-website/static/js/main.0cde01a6.js.map",
+    "main.fec559a8.js.map": "/portfolio-website/static/js/main.fec559a8.js.map",
     "787.861fdc3f.chunk.js.map": "/portfolio-website/static/js/787.861fdc3f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cd85158f.css",
-    "static/js/main.0cde01a6.js"
+    "static/js/main.fec559a8.js"
   ]
 }
