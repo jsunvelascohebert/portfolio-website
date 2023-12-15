@@ -50,8 +50,8 @@ export default function About() {
           </div>
           {/* Intersectionality */}
           <div className="about-value-item"><Fade>
-            <h3>intersectionality</h3>
-            <p>i bring a unique perspective as a multiracial, neurodivergent, queer designer. grounded in this intersectional identity, my capacity to listen, learn, and empathize with diverse communities forms the basis for understanding and collaboration.</p></Fade>
+            <h3>diversity</h3>
+            <p>i bring a unique perspective as a multiracial, neurodivergent, queer designer. grounded in this intersectional diveristy, my capacity to listen, learn, and empathize with diverse communities forms the basis for understanding and collaboration.</p></Fade>
           </div>
           {/* Creativity */}
           <div className="about-value-item"><Fade>
