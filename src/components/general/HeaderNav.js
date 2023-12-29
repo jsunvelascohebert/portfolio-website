@@ -54,14 +54,14 @@ export default function HeaderNav() {
 
     {/* mobile menu expanded */}
     {isMobileMenuOpen && 
-      <div id="mobileMenu" className="fixed top-0 left-0 right-0 z-50 w-full h-full overflow-hidden md:hidden bg-gradient-to-b from-purple to-white">
+      <div id="mobileMenu" className="fixed top-0 left-0 right-0 z-50 w-full h-screen overflow-hidden md:hidden bg-gradient-to-b from-purple to-white pb-4">
         {/* close button */}
         <div className="w-full flex flex-row justify-end items-center p-3 border-4 border-purple border-opacity-0">
           <IoClose className='text-darkPurple text-2xl' onClick={() => setMobileMenuOpen(false)} />
         </div>
 
         {/* menu content */}
-        <div className="flex flex-col w-full h-screen overflow-hidden justify-around items-center">
+        <div className="flex flex-col w-full h-full overflow-hidden justify-around items-center pb-10">
 
           {/* name and logo */}
           <Link className="flex flex-col justify-center items-center gap-2 hover:gap-3 transition-all group" onClick={() => setMobileMenuOpen(false)}>
