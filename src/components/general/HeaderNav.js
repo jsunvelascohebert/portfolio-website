@@ -61,7 +61,7 @@ export default function HeaderNav() {
         </div>
 
         {/* menu content */}
-        <div className="flex flex-col w-full h-[95vh] overflow-hidden justify-around items-center">
+        <div className="flex flex-col w-full h-screen overflow-hidden justify-around items-center">
 
           {/* name and logo */}
           <Link className="flex flex-col justify-center items-center gap-2 hover:gap-3 transition-all group" onClick={() => setMobileMenuOpen(false)}>
